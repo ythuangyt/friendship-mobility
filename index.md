@@ -9,6 +9,7 @@ bigimg: img/globe.jpg
 In this data story, we explore ...
 
 ## Cosine Similarity of Location Type / Most Common 20 Location Types between 6 Relationship
+<button style="height:200px;width:200px"></button>
 
 <div class="row">
   <div class="col-sm"></div>
