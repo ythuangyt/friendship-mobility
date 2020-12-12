@@ -13,8 +13,8 @@ In this data story, we explore ...
   <div class="col-sm"></div>
   <div class="col-sm">
     <div class="btn-group" role="group" aria-label="Basic example" style="margin-top: 2em;">
-      <button type="button" id="cosineSimilarity" style="height:10px;width:50px" class="btn btn-outline-dark active" onclick="cosineSimilarity()">Cosine Similarity</button>
-      <button type="button" id="mostCommon" style="height:10px;width:50px" class="btn btn-outline-dark" onclick="mostCommon()">Most Common 20 Location Type</button>
+      <button type="button" id="cosineSimilarity" style="height:50px;width:300px" class="btn btn-outline-dark active" onclick="cosineSimilarity()">Cosine Similarity</button>
+      <button type="button" id="mostCommon" style="height:50px;width:300px" class="btn btn-outline-dark" onclick="mostCommon()">Most Common 20 Location Type</button>
     </div>
   </div>
   <div class="col-sm"></div>
