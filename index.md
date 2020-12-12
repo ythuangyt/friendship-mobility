@@ -9,14 +9,12 @@ bigimg: img/globe.jpg
 In this data story, we explore ...
 
 ## Cosine Similarity of Location Type / Most Common 20 Location Types between 6 Relationship
-<button style="height:200px;width:200px"></button>
-
 <div class="row">
   <div class="col-sm"></div>
   <div class="col-sm">
     <div class="btn-group" role="group" aria-label="Basic example" style="margin-top: 2em;">
-      <button type="button" id="redmeat" class="btn btn-outline-dark active" onclick="cosineSimilarity()">Cosine Similarity</button>
-      <button type="button" id="whitemeat" class="btn btn-outline-dark" onclick="mostCommon()">Most Common 20 Location Type</button>
+      <button type="button" id="cosineSimilarity" style="height:200px;width:500px" class="btn btn-outline-dark active" onclick="cosineSimilarity()">Cosine Similarity</button>
+      <button type="button" id="mostCommon" style="height:200px;width:500px" class="btn btn-outline-dark" onclick="mostCommon()">Most Common 20 Location Type</button>
     </div>
   </div>
   <div class="col-sm"></div>
