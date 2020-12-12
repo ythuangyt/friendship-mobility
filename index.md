@@ -30,7 +30,7 @@ One of those pests -- the (charmingly named) **Varroa destructor** -- is a paras
 
 To do this, we gather [Varroa infestation data](https://quickstats.nass.usda.gov/results/23E6C5E2-4F53-39C6-91FA-F9878CB8F444) and [pesticide contamination data](https://quickstats.nass.usda.gov/results/E86E00EE-2910-373B-B378-B0AC78EDC0B3) from the **National Agricultural Statistics Service (USDA)**  which we compare with the colony losses across the US, obtained through the [**Bee Informed Partnership (BIP)**](https://beeinformed.org), a US-wide collaboration of leading research labs and universities in agricultural science.
 
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="550" src="plot/scatterplot_lack_of_correlation.html"></iframe>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="550" src="./_includes/5_relationship_cosine_similarity_1.html"></iframe>
 
 Unfortunately, the lack of correlation shows that the bees' decline does not have a single answer. Even a combination of those factors doesn't suffice at explaining some catastrophical cases of CCD. They are dying regardless of how infected or poisoned by insecticides they are. But what about environmental stresses? Let's observe CCD from a geospatial perspective to explore this last important factor.
 
