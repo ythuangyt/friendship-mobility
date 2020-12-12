@@ -24,7 +24,7 @@ In this data story, we explore ...
 <div class="row">
   <div class="col-sm"></div>
   <div class="col-sm">
-     <img id="heatmap" src="plot/6_relationship_cosine_similarity_1.html" style="margin-bottom:2em;">
+     <div w3-include-html="plot/6_relationship_cosine_similarity_1"></div>
   </div>
   <div class="col-sm"></div>
 </div>
