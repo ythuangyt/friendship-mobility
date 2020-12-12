@@ -30,7 +30,7 @@ function cosineSimilarity_4Categories(){
 document.getElementById(selected1).classList.remove("active");
 var iframe = document.getElementById("cosineSimilarity4Categories");
 iframe.src = "plot/cosine_similarity_four_categories.html"
-selected = "cosineSimilarity_4Categories"
+selected1 = "cosineSimilarity_4Categories"
 document.getElementById(selected1).classList.add("active");
 }
 
@@ -38,7 +38,7 @@ function mostCommon_4Categories(){
 document.getElementById(selected1).classList.remove("active");
 var iframe = document.getElementById("cosineSimilarity4Categories");
 iframe.src = "plot/most_common_four_categories.html"
-selected = "mostCommon_4Categories"
+selected1 = "mostCommon_4Categories"
 document.getElementById(selected1).classList.add("active");
 }
 </script>
@@ -65,7 +65,7 @@ function cosineSimilarity_change(){
 document.getElementById(selected2).classList.remove("active");
 var iframe = document.getElementById("cosineSimilarityChange");
 iframe.src = "plot/cosine_similarity_difference_from_2012_to_2013.html"
-selected = "cosineSimilarity_change"
+selected2 = "cosineSimilarity_change"
 document.getElementById(selected2).classList.add("active");
 }
 
@@ -73,7 +73,7 @@ function mostCommon_change(){
 document.getElementById(selected2).classList.remove("active");
 var iframe = document.getElementById("cosineSimilarityChange");
 iframe.src = "plot/most_common_difference_from_2012_to_2013.html"
-selected = "mostCommon_change"
+selected2 = "mostCommon_change"
 document.getElementById(selected2).classList.add("active");
 }
 </script>
@@ -101,14 +101,14 @@ function cosineSimilarity_6Relationship(){
 document.getElementById(selected3).classList.remove("active");
 var iframe = document.getElementById("cosineSimilarity6Relationship");
 iframe.src = "plot/6_relationship_cosine_similarity_2.html"
-selected = "cosineSimilarity_6Relationship"
+selected3 = "cosineSimilarity_6Relationship"
 document.getElementById(selected3).classList.add("active");
 }
 function mostCommon_6Relationship(){
 document.getElementById(selected3).classList.remove("active");
 var iframe = document.getElementById("cosineSimilarity6Relationship");
 iframe.src = "plot/6_relationship_most_common_2.html"
-selected = "mostCommon_6Relationship"
+selected3 = "mostCommon_6Relationship"
 document.getElementById(selected3).classList.add("active");
 }
 </script>
