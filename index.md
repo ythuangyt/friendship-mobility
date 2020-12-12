@@ -24,6 +24,18 @@ In this data story, we explore ...
 <iframe id='cosine-similarity' frameborder="no" border="0" marginwidth="0" marginheight="0" width="120%" height="550" src="plot/6_relationship_cosine_similarity_2.html"></iframe>
 
 <script>
+
+function redMeat(){
+var iframe = document.getElementById("cosine-similarity");
+iframe.src = "plot/6_relationship_cosine_similarity_2.html"
+}
+function whiteMeat(){
+var iframe = document.getElementById("cosine-similarity");
+iframe.src = "plot/6_relationship_most_common_2.html"
+}
+<!--
+</script>
+<script>
 var selected = "redmeat"
 document.getElementById(selected).onclick = function() {
 {
