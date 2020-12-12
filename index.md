@@ -32,7 +32,7 @@ function mostCommon_4Categories(){
 var iframe = document.getElementById("cosine-similarity");
 iframe.src = "plot/most_common_four_categories.html"
 }
-
+</script>
 
 ## Cosine Similarity of Location Type / Most Common 20 Location Types between 6 Relationship
 <div class="row">
@@ -58,3 +58,4 @@ function mostCommon_6Relationship(){
 var iframe = document.getElementById("cosine-similarity");
 iframe.src = "plot/6_relationship_most_common_2.html"
 }
+</script>
