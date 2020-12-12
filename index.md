@@ -24,14 +24,23 @@ In this data story, we explore ...
 <iframe id='cosineSimilarity4Categories' frameborder="no" border="0" marginwidth="0" marginheight="0" width="120%" height="550" src="plot/cosine_similarity_four_categories.html"></iframe>
 
 <script>
-
+var selected = "cosineSimilarity_4Categories"
+  
 function cosineSimilarity_4Categories(){
+document.getElementById(selected).classList.remove("active");
 var iframe = document.getElementById("cosineSimilarity4Categories");
 iframe.src = "plot/cosine_similarity_four_categories.html"
+selected = "cosineSimilarity_4Categories"
+document.getElementById(selected).classList.add("active");
+  
 }
 function mostCommon_4Categories(){
+document.getElementById(selected).classList.remove("active");
 var iframe = document.getElementById("cosineSimilarity4Categories");
 iframe.src = "plot/most_common_four_categories.html"
+selected = "mostCommon_4Categories"
+document.getElementById(selected).classList.add("active");
+
 }
 </script>
 
