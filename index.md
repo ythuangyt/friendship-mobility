@@ -20,6 +20,7 @@ In this data story, we explore ...
   <div class="col-sm"></div>
 </div>
 
+
 <iframe id='cosineSimilarity4Categories' frameborder="no" border="0" marginwidth="0" marginheight="0" width="120%" height="550" src="plot/cosine_similarity_four_categories.html"></iframe>
 
 <script>
@@ -34,6 +35,34 @@ iframe.src = "plot/most_common_four_categories.html"
 }
 </script>
 
+## Cosine Similarity of Location Type / Most Common 20 Location Types Change from 2012 to 2013
+<div class="row">
+  <div class="col-sm"></div>
+  <div class="col-sm">
+    <div class="btn-group" role="group" aria-label="Basic example" style="margin-top: 2em;">
+      <button type="button" id="cosineSimilarity_change" style="height:50px;width:300px" class="btn btn-outline-dark active" onclick="cosineSimilarity_change()">Cosine Similarity</button>
+      <button type="button" id="mostCommon_change" style="height:50px;width:300px" class="btn btn-outline-dark" onclick="mostCommon_change()">Most Common 20 Location Type</button>
+    </div>
+  </div>
+  <div class="col-sm"></div>
+</div>
+
+
+<iframe id='cosineSimilarityChange' frameborder="no" border="0" marginwidth="0" marginheight="0" width="120%" height="550" src="plot/6_relationship_cosine_similarity_2.html"></iframe>
+
+<script>
+
+function cosineSimilarity_change(){
+var iframe = document.getElementById("cosineSimilarityChange");
+iframe.src = "plot/cosine_similarity_difference_from_2012_to_2013.html"
+}
+function mostCommon_change(){
+var iframe = document.getElementById("cosineSimilarityChange");
+iframe.src = "plot/most_common_difference_from_2012_to_2013.html"
+}
+</script>
+
+
 ## Cosine Similarity of Location Type / Most Common 20 Location Types between 6 Relationship
 <div class="row">
   <div class="col-sm"></div>
@@ -45,6 +74,7 @@ iframe.src = "plot/most_common_four_categories.html"
   </div>
   <div class="col-sm"></div>
 </div>
+
 
 <iframe id='cosineSimilarity6Relationship' frameborder="no" border="0" marginwidth="0" marginheight="0" width="120%" height="550" src="plot/6_relationship_cosine_similarity_2.html"></iframe>
 
