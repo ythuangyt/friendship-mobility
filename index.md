@@ -48,7 +48,7 @@ iframe.src = "plot/most_common_four_categories.html"
 </div>
 
 
-<iframe id='cosineSimilarityChange' frameborder="no" border="0" marginwidth="0" marginheight="0" width="120%" height="550" src="plot/6_relationship_cosine_similarity_2.html"></iframe>
+<iframe id='cosineSimilarityChange' frameborder="no" border="0" marginwidth="0" marginheight="0" width="120%" height="550" src="plot/cosine_similarity_difference_from_2012_to_2013.html"></iframe>
 
 <script>
 
