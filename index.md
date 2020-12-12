@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Friendship and Mobility
-bigimg: img/bigbee.jpg
+bigimg: img/globe.jpg
 ---
 ## Bees are dying
 #### What's up with that?
