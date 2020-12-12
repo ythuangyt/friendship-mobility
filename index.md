@@ -20,16 +20,16 @@ In this data story, we explore ...
   <div class="col-sm"></div>
 </div>
 
-<iframe id='cosine-similarity' frameborder="no" border="0" marginwidth="0" marginheight="0" width="120%" height="550" src="plot/cosine_similarity_four_categories.html"></iframe>
+<iframe id='cosineSimilarity4Categories' frameborder="no" border="0" marginwidth="0" marginheight="0" width="120%" height="550" src="plot/cosine_similarity_four_categories.html"></iframe>
 
 <script>
 
 function cosineSimilarity_4Categories(){
-var iframe = document.getElementById("cosine-similarity");
+var iframe = document.getElementById("cosineSimilarity4Categories");
 iframe.src = "plot/cosine_similarity_four_categories.html"
 }
 function mostCommon_4Categories(){
-var iframe = document.getElementById("cosine-similarity");
+var iframe = document.getElementById("cosineSimilarity4Categories");
 iframe.src = "plot/most_common_four_categories.html"
 }
 </script>
@@ -46,16 +46,16 @@ iframe.src = "plot/most_common_four_categories.html"
   <div class="col-sm"></div>
 </div>
 
-<iframe id='cosine-similarity' frameborder="no" border="0" marginwidth="0" marginheight="0" width="120%" height="550" src="plot/6_relationship_cosine_similarity_2.html"></iframe>
+<iframe id='cosineSimilarity6Relationship' frameborder="no" border="0" marginwidth="0" marginheight="0" width="120%" height="550" src="plot/6_relationship_cosine_similarity_2.html"></iframe>
 
 <script>
 
 function cosineSimilarity_6Relationship(){
-var iframe = document.getElementById("cosine-similarity");
+var iframe = document.getElementById("cosineSimilarity6Relationship");
 iframe.src = "plot/6_relationship_cosine_similarity_2.html"
 }
 function mostCommon_6Relationship(){
-var iframe = document.getElementById("cosine-similarity");
+var iframe = document.getElementById("cosineSimilarity6Relationship");
 iframe.src = "plot/6_relationship_most_common_2.html"
 }
 </script>
