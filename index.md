@@ -8,13 +8,17 @@ bigimg: img/globe.jpg
 ### The Data
 
 ### Similarity of checkins' location
-## Cosine Similarity of Location Type / Most Common 20 Location Types between 4 Categories
+
+We investigate two types of the checkins' similarity between users in 4 categories of relationships. To calculate checkins' similarity we first estimate the probablity that a user is checking in each location. We call the vector the location probability vector, and estimate it by the numbers of checkins in each location over the total checkins. 
+
+For the first type of similarity, we calculate the cosine similarity between two users' location probability vector
+
 <div class="row">
   <div class="col-sm"></div>
   <div class="col-sm">
     <div class="btn-group" role="group" aria-label="Basic example" style="margin-top: 2em;">
       <button type="button" id="cosineSimilarity_4Categories" style="height:50px;width:300px" class="btn btn-outline-dark active" onclick="cosineSimilarity_4Categories()">Cosine Similarity</button>
-      <button type="button" id="mostCommon_4Categories" style="height:50px;width:300px" class="btn btn-outline-dark" onclick="mostCommon_4Categories()">Most Common 20 Location Type</button>
+      <button type="button" id="mostCommon_4Categories" style="height:50px;width:300px" class="btn btn-outline-dark" onclick="mostCommon_4Categories()">Common Location</button>
     </div>
   </div>
   <div class="col-sm"></div>
