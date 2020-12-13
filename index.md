@@ -11,7 +11,7 @@ bigimg: img/globe.jpg
 
 We investigate two types of the checkins' similarity between users in four categories of relationships. To calculate checkins' similarity we first estimate the probablity that a user is checking in each location. We call the vector the location probability vector, and estimate it by the numbers of checkins in each location over the total checkins. 
 
-For the first type of similarity, we calculate the cosine similarity between two users' location probability vector, and estimate the empirical distribution of the similarity in each categories. The commom location similariity is computed as the number of the same locations between two users' most 20 checkins location.
+For the first type of similarity, we calculate the cosine similarity between two users' location probability vector, and estimate the empirical distribution of the similarity in each categories. The commom location similariity is computed as the number of same locations among two users' commom location. The commom location of each user is defined as the twenty locations that a user has the most checkins.
 
 
 <div class="row">
@@ -47,6 +47,10 @@ selected1 = "mostCommon_4Categories"
 document.getElementById(selected1).classList.add("active");
 }
 </script>
+
+
+
+
 
 ## Cosine Similarity of Location Type / Most Common 20 Location Types Change from 2012 to 2013
 <div class="row">
