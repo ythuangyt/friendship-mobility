@@ -112,3 +112,6 @@ selected3 = "mostCommon_6Relationship"
 document.getElementById(selected3).classList.add("active");
 }
 </script>
+
+## Most Common Check-in Location Types in Different Countries
+<iframe id='mostCommon-countries' frameborder="no" border="0" marginwidth="0" marginheight="0" width="120%" height="550" src="plot/wordcloud.html"></iframe>
