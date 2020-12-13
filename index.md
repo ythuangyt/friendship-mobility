@@ -9,9 +9,11 @@ bigimg: img/globe.jpg
 
 ### Similarity of checkins' location
 
-We investigate two types of the checkins' similarity between users in 4 categories of relationships. To calculate checkins' similarity we first estimate the probablity that a user is checking in each location. We call the vector the location probability vector, and estimate it by the numbers of checkins in each location over the total checkins. 
+We investigate two types of the checkins' similarity between users in four categories of relationships. To calculate checkins' similarity we first estimate the probablity that a user is checking in each location. We call the vector the location probability vector, and estimate it by the numbers of checkins in each location over the total checkins. 
 
-For the first type of similarity, we calculate the cosine similarity between two users' location probability vector
+For the first type of similarity, we calculate the cosine similarity between two users' location probability vector, and estimate the empirical distribution of the similarity in each categories. The second type of similariity is computed as the number of the same locations between twenty locations that the two users' have the most checkins.
+
+
 
 <div class="row">
   <div class="col-sm"></div>
