@@ -135,7 +135,7 @@ document.getElementById(selected3).classList.add("active");
   <div class="col-sm"></div>
 </div>
 
-<iframe id='high-low-similarity' frameborder="no" border="0" marginwidth="0" marginheight="0" width="120%" height="550" src="plot/HighSmilarity_locations.html"></iframe>
+<iframe id='high-low-similarity' frameborder="no" border="0" marginwidth="0" marginheight="0" width="120%" height="550" src="plot/HighSimilarity_locations.html"></iframe>
 
 <script>
 var selected4 = "high-Similarity-Location"
@@ -143,14 +143,14 @@ var selected4 = "high-Similarity-Location"
 function highSimilarity_Location(){
 document.getElementById(selected4).classList.remove("active");
 var iframe = document.getElementById("high-low-similarity");
-iframe.src = "plot/HighSmilarity_locations.html"
+iframe.src = "plot/HighSimilarity_locations.html"
 selected4 =  "high-Similarity-Location"
 document.getElementById(selected4).classList.add("active");
 }
 function lowSimilarity_Location(){
 document.getElementById(selected4).classList.remove("active");
 var iframe = document.getElementById("high-low-similarity");
-iframe.src = "plot/LowSmilarity_locations"
+iframe.src = "plot/LowSimilarity_locations.html"
 selected4 =  "low-Similarity-Location"
 document.getElementById(selected4).classList.add("active");
 }
