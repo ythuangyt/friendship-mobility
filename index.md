@@ -26,7 +26,7 @@ For the first type of similarity, we calculate the cosine similarity between two
 </div>
 
 
-<iframe id='cosineSimilarity4Categories' frameborder="no" border="0" marginwidth="0" marginheight="0" width="120%" height="550" src="plot/cosine_similarity_four_categories.html"></iframe>
+<iframe id='cosineSimilarity4Categories' frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="550" src="plot/cosine_similarity_four_categories.html"></iframe>
 
 <script>
 var selected1 = "cosineSimilarity_4Categories"
@@ -65,7 +65,7 @@ document.getElementById(selected1).classList.add("active");
 </div>
 
 
-<iframe id='cosineSimilarityChange' frameborder="no" border="0" marginwidth="0" marginheight="0" width="120%" height="550" src="plot/cosine_similarity_difference_from_2012_to_2013.html"></iframe>
+<iframe id='cosineSimilarityChange' frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="550" src="plot/cosine_similarity_difference_from_2012_to_2013.html"></iframe>
 
 <script>
 var selected2 = "cosineSimilarity_change"
@@ -102,7 +102,7 @@ document.getElementById(selected2).classList.add("active");
 
 
 
-<iframe id='cosineSimilarity6Relationship' frameborder="no" border="0" marginwidth="0" marginheight="0" width="120%" height="550" src="plot/6_relationship_cosine_similarity_2.html"></iframe>
+<iframe id='cosineSimilarity6Relationship' frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="550" src="plot/6_relationship_cosine_similarity_2.html"></iframe>
 
 <script>
 var selected3 = "cosineSimilarity_6Relationship"
@@ -124,10 +124,10 @@ document.getElementById(selected3).classList.add("active");
 </script>
 
 ## Most Common Check-in Location Types in Different Countries
-<iframe id='mostCommon-countries' frameborder="no" border="0" marginwidth="0" marginheight="0" width="120%" height="550" src="plot/wordcloud.html"></iframe>
+<iframe id='mostCommon-countries' frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="550" src="plot/wordcloud.html"></iframe>
 
 ## Periodic behaviors in Different Countries
-<iframe id='mostCommon-countries' frameborder="no" border="0" marginwidth="0" marginheight="0" width="120%" height="550" src="plot/periodic.html"></iframe>
+<iframe id='mostCommon-countries' frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="550" src="plot/periodic.html"></iframe>
 
 ## High / Low Similarity Location Type Between None-friend 
 <div class="row">
@@ -141,7 +141,7 @@ document.getElementById(selected3).classList.add("active");
   <div class="col-sm"></div>
 </div>
 
-<iframe id='high-low-similarity' frameborder="no" border="0" marginwidth="0" marginheight="0" width="120%" height="550" src="plot/cosineSimilarity_locations.html"></iframe>
+<iframe id='high-low-similarity' frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="550" src="plot/cosineSimilarity_locations.html"></iframe>
 
 <script>
 var selected4 = "cosine-Similarity-Location"
