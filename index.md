@@ -126,6 +126,9 @@ document.getElementById(selected3).classList.add("active");
 ## Most Common Check-in Location Types in Different Countries
 <iframe id='mostCommon-countries' frameborder="no" border="0" marginwidth="0" marginheight="0" width="120%" height="550" src="plot/wordcloud.html"></iframe>
 
+## Periodic behaviors in Different Countries
+<iframe id='mostCommon-countries' frameborder="no" border="0" marginwidth="0" marginheight="0" width="120%" height="550" src="plot/periodic.html"></iframe>
+
 ## High / Low Similarity Location Type Between None-friend 
 <div class="row">
   <div class="col-sm"></div>
