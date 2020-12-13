@@ -57,8 +57,8 @@ document.getElementById(selected1).classList.add("active");
   <div class="col-sm"></div>
   <div class="col-sm">
     <div class="btn-group" role="group" aria-label="Basic example" style="margin-top: 2em;">
-      <button type="button" id="cosineSimilarity_change" style="height:50px;width:300px" class="btn btn-outline-dark active" onclick="cosineSimilarity_change()">Cosine Similarity</button>
-      <button type="button" id="mostCommon_change" style="height:50px;width:300px" class="btn btn-outline-dark" onclick="mostCommon_change()">Common Location</button>
+      <button type="button" id="cosineSimilarity_change" style="height:40px;width:230px" class="btn btn-outline-dark active" onclick="cosineSimilarity_change()">Cosine Similarity</button>
+      <button type="button" id="mostCommon_change" style="height:40px;width:230px" class="btn btn-outline-dark" onclick="mostCommon_change()">Common Location</button>
     </div>
   </div>
   <div class="col-sm"></div>
@@ -93,8 +93,8 @@ document.getElementById(selected2).classList.add("active");
   <div class="col-sm"></div>
   <div class="col-sm">
     <div class="btn-group" role="group" aria-label="Basic example" style="margin-top: 2em;">
-      <button type="button" id="cosineSimilarity_6Relationship" style="height:50px;width:300px" class="btn btn-outline-dark active" onclick="cosineSimilarity_6Relationship()">Cosine Similarity</button>
-      <button type="button" id="mostCommon_6Relationship" style="height:50px;width:300px" class="btn btn-outline-dark" onclick="mostCommon_6Relationship()">Common Location</button>
+      <button type="button" id="cosineSimilarity_6Relationship" style="height:40px;width:230px" class="btn btn-outline-dark active" onclick="cosineSimilarity_6Relationship()">Cosine Similarity</button>
+      <button type="button" id="mostCommon_6Relationship" style="height:40px;width:230px" class="btn btn-outline-dark" onclick="mostCommon_6Relationship()">Common Location</button>
     </div>
   </div>
   <div class="col-sm"></div>
@@ -134,8 +134,8 @@ document.getElementById(selected3).classList.add("active");
   <div class="col-sm"></div>
   <div class="col-sm">
     <div class="btn-group" role="group" aria-label="Basic example" style="margin-top: 2em;">
-      <button type="button" id="cosine-Similarity-Location" style="height:50px;width:320px" class="btn btn-outline-dark active" onclick="cosineSimilarity_Location()">Cosine Similarity</button>
-      <button type="button" id="most-Common-Location" style="height:50px;width:320px" class="btn btn-outline-dark" onclick="mostCommon_Location()">Common Location</button>
+      <button type="button" id="cosine-Similarity-Location" style="height:40px;width:230px" class="btn btn-outline-dark active" onclick="cosineSimilarity_Location()">Cosine Similarity</button>
+      <button type="button" id="most-Common-Location" style="height:40px;width:230px" class="btn btn-outline-dark" onclick="mostCommon_Location()">Common Location</button>
     </div>
   </div>
   <div class="col-sm"></div>
