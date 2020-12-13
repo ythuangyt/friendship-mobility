@@ -3,8 +3,7 @@ layout: page
 title: Friendship and Mobility
 bigimg: img/globe.jpg
 ---
-## How similar it is between friends' mobility pattern?
-#### 
+### How similar are you and your friends? 
 
 In this data story, we explore ...
 
