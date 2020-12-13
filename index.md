@@ -25,7 +25,6 @@ For the first type of similarity, we calculate the cosine similarity between two
   <div class="col-sm"></div>
 </div>
 
-
 <iframe id='cosineSimilarity4Categories' frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="550" src="plot/cosine_similarity_four_categories.html"></iframe>
 
 <script>
