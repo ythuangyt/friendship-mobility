@@ -131,30 +131,30 @@ document.getElementById(selected3).classList.add("active");
   <div class="col-sm"></div>
   <div class="col-sm">
     <div class="btn-group" role="group" aria-label="Basic example" style="margin-top: 2em;">
-      <button type="button" id="high-Similarity-Location" style="height:50px;width:320px" class="btn btn-outline-dark active" onclick="highSimilarity_Location()">High Cosine Similarity Location Types</button>
-      <button type="button" id="low-Similarity-Location" style="height:50px;width:320px" class="btn btn-outline-dark" onclick="lowSimilarity_Location()">Low Cosine Similarity Location Types</button>
+      <button type="button" id="cosine-Similarity-Location" style="height:50px;width:320px" class="btn btn-outline-dark active" onclick="cosineSimilarity_Location()">Cosine Similarity</button>
+      <button type="button" id="most-Common-Location" style="height:50px;width:320px" class="btn btn-outline-dark" onclick="mostCommon_Location()">Most Common Locations</button>
     </div>
   </div>
   <div class="col-sm"></div>
 </div>
 
-<iframe id='high-low-similarity' frameborder="no" border="0" marginwidth="0" marginheight="0" width="120%" height="550" src="plot/HighSimilarity_locations.html"></iframe>
+<iframe id='high-low-similarity' frameborder="no" border="0" marginwidth="0" marginheight="0" width="120%" height="550" src="plot.cosineSimilarity_locations.html"></iframe>
 
 <script>
-var selected4 = "high-Similarity-Location"
+var selected4 = "cosine-Similarity-Location"
   
-function highSimilarity_Location(){
+function cosineSimilarity_Location(){
 document.getElementById(selected4).classList.remove("active");
 var iframe = document.getElementById("high-low-similarity");
-iframe.src = "plot/HighSimilarity_locations.html"
-selected4 =  "high-Similarity-Location"
+iframe.src = "plot/cosineSimilarity_locations.html"
+selected4 =  "cosine-Similarity-Location"
 document.getElementById(selected4).classList.add("active");
 }
-function lowSimilarity_Location(){
+function mostCommon_Location(){
 document.getElementById(selected4).classList.remove("active");
 var iframe = document.getElementById("high-low-similarity");
-iframe.src = "plot/LowSimilarity_locations.html"
-selected4 =  "low-Similarity-Location"
+iframe.src = "plot/mostCommon_locations.html"
+selected4 =  "most-Common-Location"
 document.getElementById(selected4).classList.add("active");
 }
 </script>
