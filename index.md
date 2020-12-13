@@ -99,8 +99,6 @@ document.getElementById(selected2).classList.add("active");
   <div class="col-sm"></div>
 </div>
 
-
-
 <iframe id='cosineSimilarity6Relationship' frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="550" src="plot/6_relationship_cosine_similarity_2.html"></iframe>
 
 <script>
