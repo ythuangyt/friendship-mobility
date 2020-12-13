@@ -13,7 +13,6 @@ We investigate two types of the checkins' similarity between users in four categ
 
 For the first type of similarity, we calculate the cosine similarity between two users' location probability vector, and estimate the empirical distribution of the similarity in each categories. The commom location similariity is computed as the number of same locations among two users' commom location. The commom location of each user is defined as the twenty locations that a user has the most checkins.
 
-
 <div class="row">
   <div class="col-sm"></div>
   <div class="col-sm">
