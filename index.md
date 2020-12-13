@@ -122,3 +122,36 @@ document.getElementById(selected3).classList.add("active");
 
 ## Most Common Check-in Location Types in Different Countries
 <iframe id='mostCommon-countries' frameborder="no" border="0" marginwidth="0" marginheight="0" width="120%" height="550" src="plot/wordcloud.html"></iframe>
+
+## High / Low Similarity Location Type Between None-friend 
+<div class="row">
+  <div class="col-sm"></div>
+  <div class="col-sm">
+    <div class="btn-group" role="group" aria-label="Basic example" style="margin-top: 2em;">
+      <button type="button" id="high-Similarity-Location" style="height:50px;width:300px" class="btn btn-outline-dark active" onclick="highSimilarity_Location()">High Cosine Similarity Location Types</button>
+      <button type="button" id="low-Similarity-Location" style="height:50px;width:300px" class="btn btn-outline-dark" onclick="lowSimilarity_Location()">Low Cosine Similarity Location Type</button>
+    </div>
+  </div>
+  <div class="col-sm"></div>
+</div>
+
+<iframe id='high-low-similarity' frameborder="no" border="0" marginwidth="0" marginheight="0" width="120%" height="550" src="plot/6_relationship_cosine_similarity_2.html"></iframe>
+
+<script>
+var selected4 = "high-Similarity-Location"
+  
+function highSimilarity_Location(){
+document.getElementById(selected4).classList.remove("active");
+var iframe = document.getElementById("high-low-similarity");
+iframe.src = "plot/HighSmilarity_locations.html"
+selected4 =  "high-Similarity-Location"
+document.getElementById(selected4).classList.add("active");
+}
+function lowSimilarity_Location(){
+document.getElementById(selected4).classList.remove("active");
+var iframe = document.getElementById("high-low-similarity");
+iframe.src = "plot/LowSmilarity_locations"
+selected4 =  "low-Similarity-Location"
+document.getElementById(selected4).classList.add("active");
+}
+</script>
