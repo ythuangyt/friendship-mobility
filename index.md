@@ -51,7 +51,7 @@ Unquestionably, friends should have more similar checkins than strangers, regard
 We then divide the huge difference between the two extreme into two effects, the friendship effect and the country effect. The two effects combined move the blue distribution to the purple one, the friendship effect moves it to the green one and the country effect moves it to the red one. Observed that the similarity between friends different countries is higher than strangers in the same country, we conclude the friendship effect is larger than the country effect when they are acting alone.
 
 
-## Cosine Similarity of Location Type / Most Common 20 Location Types Change from 2012 to 2013
+###  The friendship that changes over time
 <div class="row">
   <div class="col-sm"></div>
   <div class="col-sm">
