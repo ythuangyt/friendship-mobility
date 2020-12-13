@@ -5,8 +5,9 @@ bigimg: img/globe.jpg
 ---
 ### How similar are you and your friends? 
 
-In this data story, we explore ...
+### The Data
 
+### Similarity of checkins' location
 ## Cosine Similarity of Location Type / Most Common 20 Location Types between 4 Categories
 <div class="row">
   <div class="col-sm"></div>
