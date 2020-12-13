@@ -18,8 +18,8 @@ For the first type of similarity, we calculate the cosine similarity between two
   <div class="col-sm"></div>
   <div class="col-sm">
     <div class="btn-group" role="group" aria-label="Basic example" style="margin-top: 2em;">
-      <button type="button" id="cosineSimilarity_4Categories" style="height:40px;width:250px" class="btn btn-outline-dark active" onclick="cosineSimilarity_4Categories()">Cosine Similarity</button>
-      <button type="button" id="mostCommon_4Categories" style="height:40px;width:250px" class="btn btn-outline-dark" onclick="mostCommon_4Categories()">Common Location</button>
+      <button type="button" id="cosineSimilarity_4Categories" style="height:40px;width:220px" class="btn btn-outline-dark active" onclick="cosineSimilarity_4Categories()">Cosine Similarity</button>
+      <button type="button" id="mostCommon_4Categories" style="height:40px;width:220px" class="btn btn-outline-dark" onclick="mostCommon_4Categories()">Common Location</button>
     </div>
   </div>
   <div class="col-sm"></div>
