@@ -9,9 +9,10 @@ bigimg: img/globe.jpg
 
 ### Similarity of checkins' location
 
-We investigate two types of the checkins' similarity between users in 4 categories of relationships. To calculate checkins' similarity we first estimate the probablity that a user is checking in each location. We call the vector the location probability vector, and estimate it by the numbers of checkins in each location over the total checkins. 
+We investigate two types of the checkins' similarity between users in four categories of relationships. To calculate checkins' similarity we first estimate the probablity that a user is checking in each location. We call the vector the location probability vector, and estimate it by the numbers of checkins in each location over the total checkins. 
 
-For the first type of similarity, we calculate the cosine similarity between two users' location probability vector
+For the first type of similarity, we calculate the cosine similarity between two users' location probability vector, and estimate the empirical distribution of the similarity in each categories. The commom location similariity is computed as the number of same locations among two users' commom location. The commom location of each user is defined as the twenty locations that a user has the most checkins.
+
 
 <div class="row">
   <div class="col-sm"></div>
@@ -46,6 +47,10 @@ selected1 = "mostCommon_4Categories"
 document.getElementById(selected1).classList.add("active");
 }
 </script>
+
+
+
+
 
 ## Cosine Similarity of Location Type / Most Common 20 Location Types Change from 2012 to 2013
 <div class="row">
@@ -120,3 +125,36 @@ document.getElementById(selected3).classList.add("active");
 
 ## Most Common Check-in Location Types in Different Countries
 <iframe id='mostCommon-countries' frameborder="no" border="0" marginwidth="0" marginheight="0" width="120%" height="550" src="plot/wordcloud.html"></iframe>
+
+## High / Low Similarity Location Type Between None-friend 
+<div class="row">
+  <div class="col-sm"></div>
+  <div class="col-sm">
+    <div class="btn-group" role="group" aria-label="Basic example" style="margin-top: 2em;">
+      <button type="button" id="high-Similarity-Location" style="height:50px;width:320px" class="btn btn-outline-dark active" onclick="highSimilarity_Location()">High Cosine Similarity Location Types</button>
+      <button type="button" id="low-Similarity-Location" style="height:50px;width:320px" class="btn btn-outline-dark" onclick="lowSimilarity_Location()">Low Cosine Similarity Location Types</button>
+    </div>
+  </div>
+  <div class="col-sm"></div>
+</div>
+
+<iframe id='high-low-similarity' frameborder="no" border="0" marginwidth="0" marginheight="0" width="120%" height="550" src="plot/HighSimilarity_locations.html"></iframe>
+
+<script>
+var selected4 = "high-Similarity-Location"
+  
+function highSimilarity_Location(){
+document.getElementById(selected4).classList.remove("active");
+var iframe = document.getElementById("high-low-similarity");
+iframe.src = "plot/HighSimilarity_locations.html"
+selected4 =  "high-Similarity-Location"
+document.getElementById(selected4).classList.add("active");
+}
+function lowSimilarity_Location(){
+document.getElementById(selected4).classList.remove("active");
+var iframe = document.getElementById("high-low-similarity");
+iframe.src = "plot/LowSimilarity_locations.html"
+selected4 =  "low-Similarity-Location"
+document.getElementById(selected4).classList.add("active");
+}
+</script>
