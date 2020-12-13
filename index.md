@@ -3,11 +3,11 @@ layout: page
 title: Friendship and Mobility
 bigimg: img/globe.jpg
 ---
-## How similar it is between friends' mobility pattern?
-#### 
+### How similar are you and your friends? 
 
-In this data story, we explore ...
+### The Data
 
+### Similarity of checkins' location
 ## Cosine Similarity of Location Type / Most Common 20 Location Types between 4 Categories
 <div class="row">
   <div class="col-sm"></div>
@@ -92,6 +92,7 @@ document.getElementById(selected2).classList.add("active");
 </div>
 
 
+
 <iframe id='cosineSimilarity6Relationship' frameborder="no" border="0" marginwidth="0" marginheight="0" width="120%" height="550" src="plot/6_relationship_cosine_similarity_2.html"></iframe>
 
 <script>
@@ -112,3 +113,6 @@ selected3 = "mostCommon_6Relationship"
 document.getElementById(selected3).classList.add("active");
 }
 </script>
+
+## Most Common Check-in Location Types in Different Countries
+<iframe id='mostCommon-countries' frameborder="no" border="0" marginwidth="0" marginheight="0" width="120%" height="550" src="plot/wordcloud.html"></iframe>
