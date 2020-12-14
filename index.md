@@ -176,4 +176,6 @@ document.getElementById(selected4).classList.add("active");
 ## Periodic behaviors in Different Countries
 <iframe id='mostCommon-countries' frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="550" src="plot/periodic.html"></iframe>
 
+## Seasonality of Check-in Location Types in Different Countries
+<iframe id='mostCommon-countries' frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="550" src="plot/seasonality_differentCountries.html"></iframe>
 
