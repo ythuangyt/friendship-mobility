@@ -53,6 +53,44 @@ Unquestionably, friends should have more similar checkins than strangers, regard
 We then divide the huge difference between the two extreme into two effects, the friendship effect and the country effect. The two effects combined move the blue distribution to the purple one, the friendship effect moves it to the green one and the country effect moves it to the red one. Observed that the similarity between friends different countries is higher than strangers in the same country, we conclude the friendship effect is larger than the country effect when they are acting alone.
 
 
+### Is it one of my friends' friends?
+
+Now we propose an alternative way to break down the difference between friends and strangers. 
+
+<div class="row">
+  <div class="col-sm"></div>
+  <div class="col-sm">
+    <div class="btn-group" role="group" aria-label="Basic example" style="margin-top: 2em;">
+      <button type="button" id="cosineSimilarity_6Relationship" style="height:40px;width:230px" class="btn btn-outline-dark active" onclick="cosineSimilarity_6Relationship()">Cosine Similarity</button>
+      <button type="button" id="mostCommon_6Relationship" style="height:40px;width:230px" class="btn btn-outline-dark" onclick="mostCommon_6Relationship()">Common Location</button>
+    </div>
+  </div>
+  <div class="col-sm"></div>
+</div>
+
+<iframe id='cosineSimilarity6Relationship' frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="550" src="plot/6_relationship_cosine_similarity_2.html"></iframe>
+
+<script>
+var selected3 = "cosineSimilarity_6Relationship"
+  
+function cosineSimilarity_6Relationship(){
+document.getElementById(selected3).classList.remove("active");
+var iframe = document.getElementById("cosineSimilarity6Relationship");
+iframe.src = "plot/6_relationship_cosine_similarity_2.html"
+selected3 = "cosineSimilarity_6Relationship"
+document.getElementById(selected3).classList.add("active");
+}
+function mostCommon_6Relationship(){
+document.getElementById(selected3).classList.remove("active");
+var iframe = document.getElementById("cosineSimilarity6Relationship");
+iframe.src = "plot/6_relationship_most_common_2.html"
+selected3 = "mostCommon_6Relationship"
+document.getElementById(selected3).classList.add("active");
+}
+</script>
+
+
+
 ###  Is your friendship fading?
 
 What about the variation of friendship over time? As you are making new friends, are you still hanging up with your old ones?
@@ -98,39 +136,6 @@ For each pair of friends in 2014, we calculate difference between the similarity
 Compared with new friendships, the distributiion of the difference in similarity of old friendships puts more weights on negative values. According to the figure, on average, you and your old friends seem to have less commom place to go. Just like you to start to be fond of eating burgers and make new friends in fast food restaurant but your old friends are still having pizzas.
 
 
-### Is it one of my friends' friends?
-
-<div class="row">
-  <div class="col-sm"></div>
-  <div class="col-sm">
-    <div class="btn-group" role="group" aria-label="Basic example" style="margin-top: 2em;">
-      <button type="button" id="cosineSimilarity_6Relationship" style="height:40px;width:230px" class="btn btn-outline-dark active" onclick="cosineSimilarity_6Relationship()">Cosine Similarity</button>
-      <button type="button" id="mostCommon_6Relationship" style="height:40px;width:230px" class="btn btn-outline-dark" onclick="mostCommon_6Relationship()">Common Location</button>
-    </div>
-  </div>
-  <div class="col-sm"></div>
-</div>
-
-<iframe id='cosineSimilarity6Relationship' frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="550" src="plot/6_relationship_cosine_similarity_2.html"></iframe>
-
-<script>
-var selected3 = "cosineSimilarity_6Relationship"
-  
-function cosineSimilarity_6Relationship(){
-document.getElementById(selected3).classList.remove("active");
-var iframe = document.getElementById("cosineSimilarity6Relationship");
-iframe.src = "plot/6_relationship_cosine_similarity_2.html"
-selected3 = "cosineSimilarity_6Relationship"
-document.getElementById(selected3).classList.add("active");
-}
-function mostCommon_6Relationship(){
-document.getElementById(selected3).classList.remove("active");
-var iframe = document.getElementById("cosineSimilarity6Relationship");
-iframe.src = "plot/6_relationship_most_common_2.html"
-selected3 = "mostCommon_6Relationship"
-document.getElementById(selected3).classList.add("active");
-}
-</script>
 
 ## Most Common Check-in Location Types in Different Countries
 <iframe id='mostCommon-countries' frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="550" src="plot/wordcloud.html"></iframe>
