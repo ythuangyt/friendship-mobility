@@ -56,6 +56,7 @@ We then divide the huge difference between the two extreme into two effects, the
 ###  Is your friendship fading?
 
 What about the variaty of friendship over time? As you are making new friends, are you still hanging up with your old ones?
+
 It seems not, does it?
 
 <div class="row">
@@ -91,6 +92,8 @@ selected2 = "mostCommon_change"
 document.getElementById(selected2).classList.add("active");
 }
 </script>
+
+
 
 
 ### Is it one of my friends' friends?
