@@ -7,7 +7,9 @@ bigimg: img/globe.jpg
 
 ### The Data
 
-### Similarity of checkins' location
+### Friendship in terms of checkins' location
+
+How similar are you and your friends checkins' pattern? How often do you go to the same type of locations as your friends? Do you all enjoy Italian food and outdoor acticities?
 
 We investigate two types of the checkins' similarity between users in four categories of relationships. To calculate checkins' similarity we first estimate the probablity that a user is checking in each location. We call the vector the location probability vector, and estimate it by the numbers of checkins in each location over the total checkins. 
 
@@ -53,7 +55,8 @@ We then divide the huge difference between the two extreme into two effects, the
 
 ###  Is your friendship fading?
 
-
+What about the variaty of friendship over time? As you are making new friends, are you still hanging up with your old ones?
+It seems not, does it?
 
 <div class="row">
   <div class="col-sm"></div>
