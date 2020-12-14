@@ -136,13 +136,6 @@ For each pair of friends in 2014, we calculate difference between the similarity
 Compared with new friendships, the distributiion of the difference in similarity of old friendships puts more weights on negative values. According to the figure, on average, you and your old friends seem to have less commom place to go. Just like you to start to be fond of eating burgers and make new friends in fast food restaurant but your old friends are still having pizzas.
 
 
-
-## Most Common Check-in Location Types in Different Countries
-<iframe id='mostCommon-countries' frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="550" src="plot/wordcloud.html"></iframe>
-
-## Periodic behaviors in Different Countries
-<iframe id='mostCommon-countries' frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="550" src="plot/periodic.html"></iframe>
-
 ## High / Low Similarity Location Type Between None-friend 
 <div class="row">
   <div class="col-sm"></div>
@@ -175,3 +168,12 @@ selected4 =  "most-Common-Location"
 document.getElementById(selected4).classList.add("active");
 }
 </script>
+
+
+## Most Common Check-in Location Types in Different Countries
+<iframe id='mostCommon-countries' frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="550" src="plot/wordcloud.html"></iframe>
+
+## Periodic behaviors in Different Countries
+<iframe id='mostCommon-countries' frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="550" src="plot/periodic.html"></iframe>
+
+
