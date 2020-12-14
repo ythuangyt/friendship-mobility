@@ -138,7 +138,7 @@ document.getElementById(selected3).classList.add("active");
   <div class="col-sm"></div>
 </div>
 
-<iframe id='high-low-similarity' frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="550" src="plot/cosineSimilarity_locations.html"></iframe>
+<iframe id='high-low-similarity' frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="550" src="plot/cosineSimilarity_locations_boxplot.html"></iframe>
 
 <script>
 var selected4 = "cosine-Similarity-Location"
@@ -146,14 +146,14 @@ var selected4 = "cosine-Similarity-Location"
 function cosineSimilarity_Location(){
 document.getElementById(selected4).classList.remove("active");
 var iframe = document.getElementById("high-low-similarity");
-iframe.src = "plot/cosineSimilarity_locations.html"
+iframe.src = "plot/cosineSimilarity_locations_boxplot.html"
 selected4 =  "cosine-Similarity-Location"
 document.getElementById(selected4).classList.add("active");
 }
 function mostCommon_Location(){
 document.getElementById(selected4).classList.remove("active");
 var iframe = document.getElementById("high-low-similarity");
-iframe.src = "plot/mostCommon_locations.html"
+iframe.src = "plot/mostCommon_locations_boxplot.html"
 selected4 =  "most-Common-Location"
 document.getElementById(selected4).classList.add("active");
 }
