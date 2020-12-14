@@ -55,7 +55,7 @@ We then divide the huge difference between the two extreme into two effects, the
 
 ###  Is your friendship fading?
 
-What about the variaty of friendship over time? As you are making new friends, are you still hanging up with your old ones?
+What about the variation of friendship over time? As you are making new friends, are you still hanging up with your old ones?
 
 It seems not, does it?
 
@@ -93,7 +93,9 @@ document.getElementById(selected2).classList.add("active");
 }
 </script>
 
+For each pair of friends in 2014, we calculate difference between the similarity in 2012 and 2013 and group it by whether the friendship is a old one that exists in 2012 or it is a new one just made in these two years.
 
+Compared with new friendships, the distributiion of the difference in similarity of old friendships puts more weights on negative values. According to the figure, on average, you and your old friends seem to have less commom place to go. Just like you to start to be fond of eating burgers and make new friends in fast food restaurant but your old friends are still having pizzas.
 
 
 ### Is it one of my friends' friends?
