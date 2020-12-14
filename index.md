@@ -55,7 +55,7 @@ We then divide the huge difference between the two extreme into two effects, the
 
 ### Is it one of my friends' friends?
 
-Now we propose an alternative way to break down the difference between friends and strangers. 
+Now we take a closer look at the differences between friends and strangers and try to break down the two effects.
 
 <div class="row">
   <div class="col-sm"></div>
