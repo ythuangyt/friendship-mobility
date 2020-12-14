@@ -138,7 +138,7 @@ document.getElementById(selected3).classList.add("active");
   <div class="col-sm"></div>
 </div>
 
-<iframe id='high-low-similarity' frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="550" src="plot/cosineSimilarity_locations_boxplot.html"></iframe>
+<iframe id='high-low-similarity' frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="650" src="plot/cosineSimilarity_locations_boxplot.html"></iframe>
 
 <script>
 var selected4 = "cosine-Similarity-Location"
