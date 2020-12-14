@@ -50,12 +50,12 @@ document.getElementById(selected1).classList.add("active");
 
 Unquestionably, friends should have more similar checkins than strangers, regardless of whether the friends is from different countries or not. Likewise, people from the same country shares more similarity than people from different ones due the cultural differences, living habits and etc.. As we can see in the figure, the similarity of friends from the same country is the highest among the four categories, and the similarity of strangers from different countries is the lowest.
 
-We then divide the huge difference between the two extreme into two effects, the friendship effect and the country effect. The two effects combined move the blue distribution to the purple one, the friendship effect moves it to the green one and the country effect moves it to the red one. Observed that the similarity between friends different countries is higher than strangers in the same country, we conclude the friendship effect is larger than the country effect when they are acting alone.
+We then divide the huge difference between the two extreme into two effects, the friendship effect and the country effect. The two effects combined move the blue distribution to the purple one, the friendship effect moves it to the green one and the country effect moves it to the red one. Observed that the similarity between friends from  different countries is higher than strangers in the same country, we roughly conclude that the friendship effect is larger than the country effect when they are acting alone.
 
 
-### Is it one of my friends' friends?
+### How far away are the strangers?
 
-Now we take a closer look at the differences between friends and strangers and try to break down the two effects.
+Now we take a closer look at the differences between the similarity of friends and strangers and try to figure out the relationship between the friendship and country effects.
 
 <div class="row">
   <div class="col-sm"></div>
@@ -89,6 +89,7 @@ document.getElementById(selected3).classList.add("active");
 }
 </script>
 
+For friends from both same and different countries, we measure the similarity distribution of 2 to 5-edges friendships and the strangers. Undoubtedly, as the edges of the friendships grow, the similarity decrease. Among all, we noticed that the similarity of strangers falls approximately between the similarity of 4-edges and 5-edges friendship.
 
 
 ###  Is your friendship fading?
