@@ -93,7 +93,7 @@ document.getElementById(selected2).classList.add("active");
 }
 </script>
 
-For each pair of friends in 2014, we calculate difference between the similarity in 2012 and 2013 and group it by whether the friendship is a old one that exists in 2012 or it is a new one just made in these two years.
+For each pair of friends in 2014, we calculate difference between the similarity in 2013 and 2012 and group it by whether the friendship is a old one that exists in 2012 or it is a new one just made in these two years.
 
 Compared with new friendships, the distributiion of the difference in similarity of old friendships puts more weights on negative values. According to the figure, on average, you and your old friends seem to have less commom place to go. Just like you to start to be fond of eating burgers and make new friends in fast food restaurant but your old friends are still having pizzas.
 
