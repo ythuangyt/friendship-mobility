@@ -136,7 +136,7 @@ For each pair of friends in 2014, we calculate difference between the similarity
 Compared with new friendships, the distributiion of the difference in similarity of old friendships puts more weights on negative values. According to the figure, on average, you and your old friends seem to have less commom place to go. Just like you to start to be fond of eating burgers and make new friends in fast food restaurant but your old friends are still having pizzas.
 
 
-## High / Low Similarity Location Type Between None-friend 
+### Why do i keep bumping into you?
 <div class="row">
   <div class="col-sm"></div>
   <div class="col-sm">
