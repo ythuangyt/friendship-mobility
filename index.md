@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Friendship and Mobility
+title: Someone Like You
 bigimg: img/globe.jpg
 ---
 ### How similar are you and your friends? 
@@ -90,6 +90,8 @@ document.getElementById(selected3).classList.add("active");
 </script>
 
 For friends from both same and different countries, we measure the similarity distribution of 2 to 5-edges friendships and the strangers. Undoubtedly, as the edges of the friendships grow, the similarity decrease. Among all, we noticed that the similarity of strangers falls approximately between the similarity of 4-edges and 5-edges friendship.
+
+To see how far away are the strangers, let us start from your 5-edges friends back to your 1-edges friends. 
 
 
 ###  Is your friendship fading?
