@@ -52,6 +52,9 @@ We then divide the huge difference between the two extreme into two effects, the
 
 
 ###  The friendship that changes over time
+
+
+
 <div class="row">
   <div class="col-sm"></div>
   <div class="col-sm">
@@ -87,7 +90,8 @@ document.getElementById(selected2).classList.add("active");
 </script>
 
 
-## Cosine Similarity of Location Type / Most Common 20 Location Types between 6 Relationship
+### Is it one of my friends' friends?
+
 <div class="row">
   <div class="col-sm"></div>
   <div class="col-sm">
