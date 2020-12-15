@@ -48,11 +48,11 @@ document.getElementById(selected1).classList.add("active");
 }
 </script>
 
-Unquestionably, friends should have more similar checkins than strangers, regardless of whether the friends is from different countries or not. Likewise, people from the same country shares more similarity than people from different ones due the cultural differences, living habits and etc.. As we can see in the figure, the similarity of friends from the same country is the highest among the four categories, and the similarity of strangers from different countries is the lowest. Between the two extremes are the similarity distributions of same country strangers and different counrties friends. Based on the fact that the latter is higher than the former, we conclude that the bonds between you and your cross-counrty friends are stronger than the habits that you share with the people from your country.
+Unquestionably, friends should have more similar checkins than strangers, regardless of whether the friends are from different countries or not. Likewise, people from the same country shares more similarity than people from different ones due the cultural differences, living habits and etc.. As we can see in the figure, the similarity of friends from the same country is the highest among the four categories, and the similarity of strangers from different countries is the lowest. Between the two extremes are the similarity distributions of same country strangers and different counrties friends. Based on the fact that the latter is higher than the former, we conclude that the bonds between you and your cross-counrty friends are stronger than the habits that you share with the people from your country.
 
 ### How far away are the strangers?
 
-Do you know how different are the similarity between you and your buddies from the similarity between you and some guy on the other side of the world that you have never seem before?
+Do you know how different are the similarity between you and your buddies from the similarity between you and some guy on the other side of the world that you have never seen before?
 
 Actually, they are not that different.
 
@@ -90,7 +90,7 @@ document.getElementById(selected3).classList.add("active");
 
 For friends from both same and different countries, we measure the similarity distribution of 1 to 5-edges friendships and the strangers. Undoubtedly, as the edge of the friendships grows, the similarity decrease. Among all, we noticed that the similarity of strangers falls approximately between the similarity of 4-edges and 5-edges friendship.
 
-To see how far away the strangers are, let us start discussing from your 5-edges friends. As we can see in the figure, both distributions show that you are really far away from your 5-edges friends, and you are even far away from your different country ones. The difference between the two distributions lies the diversity of cultures and lifestyles. Then as the number of edges decreases, the similarity between friends grows, and the gap between the same and different countries friendship decrease. Surprisingly, the gap is barely recognizable between the two categories of 1-edges friends! It appears that as the friendship is getting closer and closer, the bond that ties you and your cross-counrty friends together will the cultural differnce between you.
+To see how far away the strangers are, let us start discussing from your 5-edges friends. As we can see in the figure, both distributions show that you are really far away from your 5-edges friends, and you are even further away from the ones ones in a different country. The difference between the two distributions lies the diversity of cultures and lifestyles. Then as the number of edges decreases, the similarity between friends grows, and the gap between the same and different countries friendship decrease. Surprisingly, the gap is barely recognizable between the two categories of 1-edges friends! It appears that as the friendship is getting closer and closer, the bond that ties you and your cross-counrty friends together will the cultural differnce between you.
 
 
 ###  Is your friendship fading?
@@ -139,6 +139,9 @@ Compared with new friendships, the distributiion of the difference in similarity
 
 
 ### Why do i keep bumping into you?
+
+Does it ever feel like you see a person at a certain place, say your yoga class, then keep on bumping into them at other unrelated places ? Does that actually have any statistical sense ? The following plot shows the quantile box plot for cosine similarity between non-friend users who check in at certain places, for quite a few location types.
+
 <div class="row">
   <div class="col-sm"></div>
   <div class="col-sm">
@@ -171,13 +174,31 @@ document.getElementById(selected4).classList.add("active");
 }
 </script>
 
+As the plot shows, if you are accostumed to yoga studios, your movements are most likely very similar to any person that takes yoga classes too, even if that person is a total stranger! On the other hand if you meet a stranger at a diner, it is less likely that you two have similar preferences when it comes to visiting places. After all this makes sense: your passion for yoga could be the consequence (or the cause) of other hobbies, which is likely also the case for other yoga passionates. However, the fact that you often go to the diner won't reveal much about you as a person!
+
 
 ## Most Common Check-in Location Types in Different Countries
+
+As mentioned before, having two persons in different countries makes a difference in places they visit, due to many factors such as culture. How does that translate in practice ? Let us look at the most common checkin location types for 10 major countries, through the following word clouds.
+
 <iframe id='mostCommon-countries' frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="550" src="plot/wordcloud.html"></iframe>
+
+Noodle places in Japan, bakeries in France and *soccer* fields in Great Britain? Sounds about right!
+
 
 ## Periodic behaviors in Different Countries
 <iframe id='mostCommon-countries' frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="550" src="plot/periodic.html"></iframe>
 
+Another big cultural difference between countries lies in the periodic behavoir of the society. For example, is it likely that a Swiss citizen and a Chinese citizen follow the same work hours ?
+
+Well not really! Let us look at the distribution of checkins at the office throughout the world, as a function of time.
+
+There indeed is a clear difference between the western world where most employees follow a 9-to-5 job, and the eastern world where it is more likely to start working later, but also stay working later!
+
 ## Seasonality of Check-in Location Types in Different Countries
+
+A person's movements is very complex to understand, as it includes many factors, one of which is the time of the year! How much do you think a user's movements depends on the season? Actually, quite a lot! The following plots show the distribution of checkins for some location type in 4 major countries.
+
 <iframe id='mostCommon-countries' frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="550" src="plot/seasonality_differentCountries.html"></iframe>
 
+As it was to be expected, parks in Great Britain experience a real drought in the winter! This makes sense, no one wants to walk around Hyde Park in the freezing cold, right *mate*? It seems however that other locations do not follow this pattern, quite the opposite instead: shrines in Japan see their popularity grow, since they are a great place to go when it is freezing cold outside.
