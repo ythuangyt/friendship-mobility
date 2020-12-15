@@ -54,7 +54,7 @@ Unquestionably, friends should have more similar checkins than strangers, regard
 
 Do you know how different are the similarity between you and your buddies from you and some guy on the other side of the world that you have never seem before?
 
-Actually, they are not that different as you think.
+Actually, they are not that different.
 
 <div class="row">
   <div class="col-sm"></div>
