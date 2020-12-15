@@ -202,4 +202,4 @@ A person's movements is very complex to understand, as it includes many factors,
 
 <iframe id='mostCommon-countries' frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="550" src="plot/seasonality_differentCountries.html"></iframe>
 
-As it was to be expected, parks in Great Britain experience a real drought in the winter! This makes sense, no one wants to walk around Hyde Park in the freezing cold, right *mate*? It seems however that other locations do not follow this pattern, quite the opposite instead: shrines in Japan see their popularity grow, since they are a great place to go when it is freezing cold outside.
+As it was to be expected, parks in Great Britain experience a real drought in the winter! This makes sense, no one wants to walk around Hyde Park in the freezing cold, right *mate*? It seems, however, that other locations do not follow this pattern. Shrines in Japan see their popularity doubled since almost all the Japanese gather to the shrines to wish for happiness for the following year at the new year's eve.
