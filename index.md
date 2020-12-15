@@ -7,7 +7,7 @@ bigimg: img/globe.jpg
 
 ### The Data
 
-### Friendship in terms of checkins' location
+### How close are you to your friend?
 
 How similar are you and your friends checkins' pattern? How often do you go to the same type of locations as your friends? Do you all enjoy Italian food and outdoor acticities?
 
