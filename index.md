@@ -91,7 +91,7 @@ document.getElementById(selected3).classList.add("active");
 
 For friends from both same and different countries, we measure the similarity distribution of 2 to 5-edges friendships and the strangers. Undoubtedly, as the edges of the friendships grow, the similarity decrease. Among all, we noticed that the similarity of strangers falls approximately between the similarity of 4-edges and 5-edges friendship.
 
-To see how far away the strangers are, let us start from your 5-edges friends back to your 1-edges friends. 
+To see how far away the strangers are, let us start discussing from your 5-edges friends. As we can see in the figure, both distributions show that ypu are really far away from your 5-edges friends, and you are even far away from your different country ones.
 
 
 ###  Is your friendship fading?
