@@ -52,7 +52,7 @@ Unquestionably, friends should have more similar checkins than strangers, regard
 
 ### How far away are the strangers?
 
-Do you know how different are the similarity between you and your buddies from you and some guy on the other side of the world that you have never seem before?
+Do you know how different are the similarity between you and your buddies from the similarity between you and some guy on the other side of the world that you have never seem before?
 
 Actually, they are not that different.
 
