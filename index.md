@@ -13,7 +13,7 @@ How similar are you and your friends checkins' pattern? How often do you go to t
 
 We investigate two types of the checkins' similarity between users in four categories of relationships. To calculate checkins' similarity we first estimate the probablity that a user is checking in each location, and call it the location probability vector. For each user, we estimate the vector by dividing the numbers of checkins in each location over their total checkins. 
 
-For the first type of similarity, we calculate the cosine similarity between two users' location probability vector, and estimate the empirical distribution of the similarity in each categories. The commom location similariity is computed as the number of same locations among two users' commom location. The commom location of each user is defined as the twenty locations that a user has the most checkins.
+For the first type of similarity, we calculate the cosine similarity between two users' location probability vector, and estimate the empirical distribution of the similarity in each categories. The commom location similarity is computed as the size of the intersection of the two users' commom location. The commom location of each user is defined as the twenty locations that a user has the most checkins.
 
 <div class="row">
   <div class="col-sm"></div>
@@ -140,7 +140,7 @@ Compared with new friendships, the distributiion of the difference in similarity
 
 ### Why do i keep bumping into you?
 
-Does it ever feel like you see a person at a certain place, say your yoga class, then keep on bumping into them at other unrelated places ? Does that actually have any statistical sense ? The following plot shows the quantile box plot for cosine similarity between non-friend users who check in at certain places, for quite a few location types.
+Does it ever feel like you see a person at a certain place, say your yoga class, then keep on bumping into them at other unrelated places ? Does that actually have any statistical sense ? The following plot shows the quantile box plot for cosine similarity and common location similarity between non-friend users who check in at certain places, for quite a few location types.
 
 <div class="row">
   <div class="col-sm"></div>
@@ -187,11 +187,12 @@ Noodle places in Japan, bakeries in France and *soccer* fields in Great Britain?
 
 
 ## Periodic behaviors in Different Countries
-<iframe id='mostCommon-countries' frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="550" src="plot/periodic.html"></iframe>
 
 Another big cultural difference between countries lies in the periodic behavoir of the society. For example, is it likely that a Swiss citizen and a Chinese citizen follow the same work hours ?
 
 Well not really! Let us look at the distribution of checkins at the office throughout the world, as a function of time.
+
+<iframe id='mostCommon-countries' frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="550" src="plot/periodic.html"></iframe>
 
 There indeed is a clear difference between the western world where most employees follow a 9-to-5 job, and the eastern world where it is more likely to start working later, but also stay working later!
 
