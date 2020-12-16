@@ -212,13 +212,13 @@ As seen, friendship, location and time are all major factors in a user's checkin
 
 Another possible more subtle factor is the sociability of a user. According to their number of friends, how unique do you think a user's movements in regards to other users with a similar number of friends is ? Is this factors truly impacting? The following plot represents the mean cosine similarity for users with similar sociability.
 
-<iframe id='similarity_sociability_mean' frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="550" src="plot/.similarity_sociability_mean.html"></iframe>
+<iframe id='similarity_sociability_mean' frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="550" src="plot/similarity_sociability_mean.html"></iframe>
 
 As the plot shows, the more friends a person has, the (slightly) less unique she is, in the sense that their cosine similarity with people who have approximatly as much friends is higher.
 
 An explanation that comes to mind is that there are less users with a very high number of friends, so it could be expected that the "variance" in this group will less likely be large (it is less likely to find many "unique" users if the group of users is smaller). This could also be explained by the fact that the more a person has friends, the most likely they will get influenced by their friends, so their mouvements are usually less unique (and might follow trends). Note finally that the difference is not too large, so the effect of sociability is not actually a big factor. The following figure shows the distribution (and not the mean) of the similarity as a function of sociability.
 
-<iframe id='similarity_sociability_distribution' frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="550" src="plot/.similarity_sociability_distribution.html"></iframe>
+<iframe id='similarity_sociability_distribution' frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="550" src="plot/similarity_sociability_distribution.html"></iframe>
 
 We make the same observations here: sociability has an effect on the distribution of the cosine similartiy, but it is minor.
 
@@ -228,7 +228,7 @@ Another potential factor is the average traveling distance of a user. How simila
 
 To study this we computed a house for each users and took the average distance between the user's home and the checkin's location. The following plot shows the mean cosine similarity for users with similar traveling distances.
 
-<iframe id='similarity_distance_mean' frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="550" src="plot/.similarity_distance_mean.html"></iframe>
+<iframe id='similarity_distance_mean' frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="550" src="plot/similarity_distance_mean.html"></iframe>
 
 The plot shows that the more a person travels, the most "unique" it is, in the sense that their cosine similarity with people who travel approximatly as much is lower the more a person travels.
 
