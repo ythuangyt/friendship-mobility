@@ -8,11 +8,27 @@ bigimg: img/globe.jpg
 Mobility is apart of the essence of life, it has opened many new doors to mankind and has allowed society to shape itself to what it is now. As Roman Payne said:
 > A person does not grow from the ground like a vine or a tree, one is not part of a plot of land. Mankind has legs so it can wander.
 
-For these reasons, human mobility is a topic that has always drawn attention of researchers. Many studies have been lead around analyzing coarse-grained human mobility through statistical model. Today, however, we extend our horizon and study fine-grained human mobility, by looking at the evolution of human mobility on a day-to-day basis, through friendship and distance.
+For these reasons, human mobility is a topic that has always drawn attention of researchers. Many studies have been lead around analyzing coarse-grained human mobility through statistical model. Today, however, we extend our horizon and study fine-grained human mobility, by looking at the evolution of human mobility on a day-to-day basis.
 
-The dataset we used inlcudes long-term (about two years) global-scale checkins collected from the Foursquare application, as well as two snapshots of users' friendship before and after the checkin collection period. A checkin includes the User ID, the Venue ID and the time at which it was taken. For each venue, the dataset also provides the country of location, the latitude/longitude coordinates as well as the venue category. Categories include "Post Office", "Pub" or even "Paella Restaurant" for a total of around 500 different categories.
+The dataset we used inlcudes long-term (about two years) global-scale checkins collected from the Foursquare application, as well as two snapshots of users' friendship before and after the checkin collection period. A checkin includes the User ID, the Venue ID and the time at which it was taken. For each venue, the dataset also provides the country of location, the latitude/longitude coordinates as well as the venue category. Categories include "Post Office", "Pub" or even "Paella Restaurant" for a total of around 500 different categories. Using this dataset we will analyze the effect of multiple factors on the similarity of user's mobility through.
 
-Using this dataset we will analyze the effect of friendship and distance on a user's mobility.
+So what exactly are those factors ? Well for example, a factor that affect mobility is how sociable a user is! According to their number of friends, how unique do you think a user's movements in regards to other users with a similar number of friends is ? The following plot represents the median cosine similarity for users with similar sociability.
+
+<iframe id='similarity_sociability_mean' frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="550" src="plot/similarity_sociability_mean.html"></iframe>
+
+As the plot shows, the more friends a person has, the (slightly) less unique she is, in the sense that their cosine similarity with people who have approximatly as much friends is higher.
+
+An explanation that comes to mind is that there are less users with a very high number of friends, so it could be expected that the "variance" in this group will less likely be large (it is less likely to find many "unique" users if the group of users is smaller). This could also be explained by the fact that the more a person has friends, the most likely they will get influenced by their friends, so their mouvements are usually less unique (and might follow trends).
+
+Another potential factor is the average traveling distance of a user. How similar is a group of users' mobility accoding to how far users usually travel from their house? To study this we computed a house for each users and took the average distance between the user's home and the checkin's location. The following plot shows the median cosine similarity for users with similar traveling distances.
+
+<iframe id='similarity_distance_mean' frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="550" src="plot/similarity_distance_mean.html"></iframe>
+
+The plot shows that the more a person travels, the most "unique" it is, in the sense that their cosine similarity with people who travel approximatly as much is lower the more a person travels.
+
+This can be explained by a few things: first of all traveling somewhat obligates a person to vary its visits: a Swiss citizen won't necessarly have many occasion to eat fondue if they travel a lot! People traveling a lot won't necessarly travel in the same places so it explains that their visits are different from one another. This explication seems satisfying but it cannot explain everything: indeed a group of people traveling an average of 5km will have a much higher similarity than a group who travels in average 50km (increase of 25%), even though the difference between both average distances is not that large (50km is still probably in the same city or in a neighbor one).
+
+Out of the many factors and relashionships between humans we study the effect of frendship and strangerhood on the similarity of mobility.
 
 ### How close are you to your friends?
 
@@ -210,33 +226,3 @@ A person's movements is very complex to understand, as it includes many factors,
 <iframe id='mostCommon-countries' frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="550" src="plot/seasonality_differentCountries.html"></iframe>
 
 As it was to be expected, parks in Great Britain experience a real drought in the winter! This makes sense, no one wants to walk around Hyde Park in the freezing cold, right *mate*? It seems, however, that other locations do not follow this pattern. Shrines in Japan see their popularity doubled since almost all the Japanese gather to the shrines to wish for happiness for the following year at the new year's eve.
-
-## More Subtle Criterias
-
-As seen, friendship, location and time are all major factors in a user's checkin locations. Let us look at other smaller factors.
-
-### Sociability
-
-Another possible more subtle factor is the sociability of a user. According to their number of friends, how unique do you think a user's movements in regards to other users with a similar number of friends is ? Is this factors truly impacting? The following plot represents the mean cosine similarity for users with similar sociability.
-
-<iframe id='similarity_sociability_mean' frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="550" src="plot/similarity_sociability_mean.html"></iframe>
-
-As the plot shows, the more friends a person has, the (slightly) less unique she is, in the sense that their cosine similarity with people who have approximatly as much friends is higher.
-
-An explanation that comes to mind is that there are less users with a very high number of friends, so it could be expected that the "variance" in this group will less likely be large (it is less likely to find many "unique" users if the group of users is smaller). This could also be explained by the fact that the more a person has friends, the most likely they will get influenced by their friends, so their mouvements are usually less unique (and might follow trends). Note finally that the difference is not too large, so the effect of sociability is not actually a big factor. The following figure shows the distribution (and not the mean) of the similarity as a function of sociability.
-
-<iframe id='similarity_sociability_distribution' frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="550" src="plot/similarity_sociabilty_distribution.html"></iframe>
-
-We make the same observations here: sociability has an effect on the distribution of the cosine similartiy, but it is minor.
-
-### Traveling Distance
-
-Another potential factor is the average traveling distance of a user. How similar is a group of users' mobility accoding to how far users usually travel from their house?
-
-To study this we computed a house for each users and took the average distance between the user's home and the checkin's location. The following plot shows the mean cosine similarity for users with similar traveling distances.
-
-<iframe id='similarity_distance_mean' frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="550" src="plot/similarity_distance_mean.html"></iframe>
-
-The plot shows that the more a person travels, the most "unique" it is, in the sense that their cosine similarity with people who travel approximatly as much is lower the more a person travels.
-
-This can be explained by a few things: first of all traveling somewhat obligates a person to vary its visits: a Swiss citizen won't necessarly have many occasion to eat fondue if they travel a lot! People traveling a lot won't necessarly travel in the same places so it explains that their visits are different from one another. This explication seems satisfying but it cannot explain everything: indeed a group of people traveling an average of 5km will have a much higher similarity than a group who travels in average 50km (increase of 25%), even though the difference between both average distances is not that large (50km is still probably in the same city or in a neighbor one). It seems as there is a correlation between the will of users to travel more (even at low scale) and their will to vary their visits.
