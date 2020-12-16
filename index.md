@@ -3,9 +3,8 @@ layout: page
 title: Someone Like You
 bigimg: img/globe.jpg
 ---
-### How similar are you and your friends? 
+### Introduction
 
-### The Data
 
 ### How close are you to your friends?
 
