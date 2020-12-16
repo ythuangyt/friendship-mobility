@@ -5,6 +5,13 @@ bigimg: img/globe.jpg
 ---
 ### Introduction
 
+Mobility is apart of the essence of life, it opened many new doors to mankind and allowed society to shape itself to what it is now. As Roman Payne said:
+> A person does not grow from the ground like a vine or a tree, one is not part of a plot of land. Mankind has legs so it can wander.
+For these reasons, human mobility is a topic that has always drawn attention of reaserchers. Many studies have been lead around analyzing coarse-grained human mobility through statistical model. Today, however, we extend our horizon and study fine-grained human mobility by looking at the evolution of human mobility on a day-to-day basis, through friendship and distance.
+
+The dataset we used inlcudes long-term (about two years) global-scale checkins collected from Foursquare, as well as two snapshots of users' friendship before and after the checkin collection period. A checkin includes the User ID, the Venue ID and the time at which it was teken. For each venue, the dataset also provides the country of location, the latitude/longitude coordinates as well as the venue category. Categories include "Post Office", "Pub" or even "Paella Restaurant" for a total of around 500 different categories.
+
+Using this dataset we will analyze the effect of friendship and distance on a user's checkins location categories.
 
 ### How close are you to your friends?
 
@@ -137,7 +144,7 @@ For each pair of friends in 2014, we calculate difference between the similarity
 Compared with new friendships, the distributiion of the difference in similarity of old friendships puts more weights on negative values. According to the figure, on average, you and your old friends seem to have less commom place to go. Just like you to start to be fond of eating burgers and make new friends in fast food restaurant but your old friends are still having pizzas.
 
 
-### Why do i keep bumping into you?
+### Why do I keep bumping into you?
 
 Does it ever feel like you see a person at a certain place, say your yoga class, then keep on bumping into them at other unrelated places ? Does that actually have any statistical sense ? The following plot shows the quantile box plot for cosine similarity and common location similarity between non-friend users who check in at certain places, for quite a few location types.
 
