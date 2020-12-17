@@ -133,7 +133,6 @@ It seems not, does it?
   <div class="col-sm"></div>
 </div>
 
-
 <iframe id='cosineSimilarityChange' frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="550" src="plot/hist_friends_diff_CS.html"></iframe>
 
 <script>
