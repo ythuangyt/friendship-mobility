@@ -14,7 +14,7 @@ The dataset we used inlcudes long-term (about two years) global-scale checkins c
 
 So what exactly are those factors ? Well for example, a factor that affect mobility is how sociable a user is! According to their number of friends, how unique do you think a user's movements in regards to other users with a similar number of friends is ? The following plot represents the median cosine similarity for users with similar sociability.
 
-<iframe id='similarity_sociability_mean' frameborder="no" border="0" marginwidth="0" marginheight="0" width="67%" height="367" src="plot/similarity_sociability_mean.html"></iframe>
+<p align="center"><iframe id='similarity_sociability_mean' frameborder="no" border="0" marginwidth="0" marginheight="0" width="67%" height="367" src="plot/similarity_sociability_mean.html"></iframe>
 
 As the plot shows, the more friends a person has, the (slightly) less unique she is, in the sense that their cosine similarity with people who have approximatly as much friends is higher.
 
@@ -22,7 +22,7 @@ An explanation that comes to mind is that there are less users with a very high 
 
 Another potential factor is the average traveling distance of a user. How similar is a group of users' mobility accoding to how far users usually travel from their house? To study this we computed a house for each users and took the average distance between the user's home and the checkin's location. The following plot shows the median cosine similarity for users with similar traveling distances.
 
-<iframe id='similarity_distance_mean' frameborder="no" border="0" marginwidth="0" marginheight="0" width="66%" height="367" src="plot/similarity_distance_mean.html"></iframe>
+<p align="center"><iframe id='similarity_distance_mean' frameborder="no" border="0" marginwidth="0" marginheight="0" width="66%" height="367" src="plot/similarity_distance_mean.html"></iframe>
 
 The plot shows that the more a person travels, the most "unique" it is, in the sense that their cosine similarity with people who travel approximatly as much is lower the more a person travels.
 
