@@ -24,9 +24,9 @@ Another potential factor is the average traveling distance of a user. How simila
 
 <p align="center"><iframe id='similarity_distance_mean' frameborder="no" border="0" marginwidth="0" marginheight="0" width="66%" height="367" src="plot/CS_distance.html"></iframe></p>
 
-The plot shows that the more a person travels, the most "unique" it is, in the sense that their cosine similarity with people who travel approximatly as much is lower the more a person travels.
+The plot shows that on a smaller distance scale, the more a person travels, the most "unique" they are. This can be explained by a few things: first of all traveling somewhat obligates a person to vary its visits: a Swiss citizen won't necessarly have many occasion to eat fondue if they travel a lot! People traveling a lot won't necessarly travel in the same places so it explains that their visits are different from one another. This explication seems satisfying but it cannot explain everything: indeed a group of people traveling an average of 5km will have a much higher similarity than a group who travels in average 50km, even though the difference between both average distances is not that large (50km is still probably in the same city or in a neighbor one).
 
-This can be explained by a few things: first of all traveling somewhat obligates a person to vary its visits: a Swiss citizen won't necessarly have many occasion to eat fondue if they travel a lot! People traveling a lot won't necessarly travel in the same places so it explains that their visits are different from one another. This explication seems satisfying but it cannot explain everything: indeed a group of people traveling an average of 5km will have a much higher similarity than a group who travels in average 50km (increase of 25%), even though the difference between both average distances is not that large (50km is still probably in the same city or in a neighbor one).
+Notice also that for much higher distances, the similarity goes back up. This can be explained by the fact that users traveling very long distances will probably check-in at a hotel or a restaurant, but not at their home!
 
 Out of the many factors and relashionships between humans we study the effect of frendship and strangerhood on the similarity of mobility.
 
