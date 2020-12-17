@@ -26,9 +26,9 @@ Another potential factor is the average traveling distance of a user. How simila
 
 The plot shows that on a smaller distance scale, the more a person travels, the most "unique" they are. This can be explained by a few things: first of all traveling somewhat obligates a person to vary its visits: a Swiss citizen won't necessarly have many occasion to eat fondue if they travel a lot! People traveling a lot won't necessarly travel in the same places so it explains that their visits are different from one another. This explication seems satisfying but it cannot explain everything: indeed a group of people traveling an average of 5km will have a much higher similarity than a group who travels in average 50km, even though the difference between both average distances is not that large (50km is still probably in the same city or in a neighbor one).
 
-Notice also that for much higher distances, the similarity goes back up. This can be explained by the fact that users traveling very long distances will probably check-in at a hotel or a restaurant, but not at their home!
+Notice also that for much higher distances, the similarity goes back up. This can be explained by the fact that users traveling very long distances will probably all check-in at a hotel or a restaurant, but not at their home!
 
-Out of the many factors and relashionships between humans we study the effect of frendship and strangerhood on the similarity of mobility.
+Out of the many factors and relashionships between humans we study the effect of frendship (or strangerhood) and the location around the globe on the similarity of mobility.
 
 ### How close are you to your friends?
 
