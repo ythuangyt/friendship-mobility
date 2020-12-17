@@ -14,7 +14,7 @@ The dataset we used inlcudes long-term (about two years) global-scale checkins c
 
 So what exactly are those factors ? Well for example, a factor that affect mobility is how sociable a user is! According to their number of friends, how unique do you think a user's movements in regards to other users with a similar number of friends is ? The following plot represents the median cosine similarity for users with similar sociability.
 
-<p align="center"><iframe id='similarity_sociability_mean' frameborder="no" border="0" marginwidth="0" marginheight="0" width="67%" height="367" src="plot/similarity_sociability_mean.html"></iframe></p>
+<p align="center"><iframe id='similarity_sociability_mean' frameborder="no" border="0" marginwidth="0" marginheight="0" width="67%" height="367" src="plot/CS_sociability.html"></iframe></p>
 
 As the plot shows, the more friends a person has, the (slightly) less unique she is, in the sense that their cosine similarity with people who have approximatly as much friends is higher.
 
@@ -22,7 +22,7 @@ An explanation that comes to mind is that there are less users with a very high 
 
 Another potential factor is the average traveling distance of a user. How similar is a group of users' mobility accoding to how far users usually travel from their house? To study this we computed a house for each users and took the average distance between the user's home and the checkin's location. The following plot shows the median cosine similarity for users with similar traveling distances.
 
-<p align="center"><iframe id='similarity_distance_mean' frameborder="no" border="0" marginwidth="0" marginheight="0" width="66%" height="367" src="plot/similarity_distance_mean.html"></iframe></p>
+<p align="center"><iframe id='similarity_distance_mean' frameborder="no" border="0" marginwidth="0" marginheight="0" width="66%" height="367" src="plot/CS_distance.html"></iframe></p>
 
 The plot shows that the more a person travels, the most "unique" it is, in the sense that their cosine similarity with people who travel approximatly as much is lower the more a person travels.
 
@@ -49,7 +49,7 @@ For the first type of similarity, we calculate the cosine similarity between two
   <div class="col-sm"></div>
 </div>
 
-<iframe id='cosineSimilarity4Categories' frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="550" src="plot/cosine_similarity_four_categories.html"></iframe>
+<iframe id='cosineSimilarity4Categories' frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="550" src="plot/CS_4categories.html"></iframe>
 
 <script>
 var selected1 = "cosineSimilarity_4Categories"
@@ -57,7 +57,7 @@ var selected1 = "cosineSimilarity_4Categories"
 function cosineSimilarity_4Categories(){
 document.getElementById(selected1).classList.remove("active");
 var iframe = document.getElementById("cosineSimilarity4Categories");
-iframe.src = "plot/cosine_similarity_four_categories.html"
+iframe.src = "plot/CS_4categories.html"
 selected1 = "cosineSimilarity_4Categories"
 document.getElementById(selected1).classList.add("active");
 }
@@ -65,7 +65,7 @@ document.getElementById(selected1).classList.add("active");
 function mostCommon_4Categories(){
 document.getElementById(selected1).classList.remove("active");
 var iframe = document.getElementById("cosineSimilarity4Categories");
-iframe.src = "plot/most_common_four_categories.html"
+iframe.src = "plot/MC_4categories.html"
 selected1 = "mostCommon_4Categories"
 document.getElementById(selected1).classList.add("active");
 }
@@ -90,7 +90,7 @@ Actually, they are not that different.
   <div class="col-sm"></div>
 </div>
 
-<iframe id='cosineSimilarity6Relationship' frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="550" src="plot/6_relationship_cosine_similarity_2.html"></iframe>
+<iframe id='cosineSimilarity6Relationship' frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="550" src="plot/CS_6relationships2.html"></iframe>
 
 <script>
 var selected3 = "cosineSimilarity_6Relationship"
@@ -98,14 +98,14 @@ var selected3 = "cosineSimilarity_6Relationship"
 function cosineSimilarity_6Relationship(){
 document.getElementById(selected3).classList.remove("active");
 var iframe = document.getElementById("cosineSimilarity6Relationship");
-iframe.src = "plot/6_relationship_cosine_similarity_2.html"
+iframe.src = "plot/CS_6relationships2.html"
 selected3 = "cosineSimilarity_6Relationship"
 document.getElementById(selected3).classList.add("active");
 }
 function mostCommon_6Relationship(){
 document.getElementById(selected3).classList.remove("active");
 var iframe = document.getElementById("cosineSimilarity6Relationship");
-iframe.src = "plot/6_relationship_most_common_2.html"
+iframe.src = "plot/MC_6relationships2.html"
 selected3 = "mostCommon_6Relationship"
 document.getElementById(selected3).classList.add("active");
 }
@@ -134,7 +134,7 @@ It seems not, does it?
 </div>
 
 
-<iframe id='cosineSimilarityChange' frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="550" src="plot/cosine_similarity_difference_from_2012_to_2013.html"></iframe>
+<iframe id='cosineSimilarityChange' frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="550" src="plot/hist_friends_diff_CS.html"></iframe>
 
 <script>
 var selected2 = "cosineSimilarity_change"
@@ -142,7 +142,7 @@ var selected2 = "cosineSimilarity_change"
 function cosineSimilarity_change(){
 document.getElementById(selected2).classList.remove("active");
 var iframe = document.getElementById("cosineSimilarityChange");
-iframe.src = "plot/cosine_similarity_difference_from_2012_to_2013.html"
+iframe.src = "plot/hist_friends_diff_CS.html"
 selected2 = "cosineSimilarity_change"
 document.getElementById(selected2).classList.add("active");
 }
@@ -150,7 +150,7 @@ document.getElementById(selected2).classList.add("active");
 function mostCommon_change(){
 document.getElementById(selected2).classList.remove("active");
 var iframe = document.getElementById("cosineSimilarityChange");
-iframe.src = "plot/most_common_difference_from_2012_to_2013.html"
+iframe.src = "plot/hist_friends_diff_MC.html"
 selected2 = "mostCommon_change"
 document.getElementById(selected2).classList.add("active");
 }
@@ -176,7 +176,7 @@ Does it ever feel like you see a person at a certain place, say your yoga class,
   <div class="col-sm"></div>
 </div>
 
-<iframe id='high-low-similarity' frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="650" src="plot/cosineSimilarity_locations_boxplot.html"></iframe>
+<iframe id='high-low-similarity' frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="650" src="plot/CS_nonefriends.html"></iframe>
 
 <script>
 var selected4 = "cosine-Similarity-Location"
@@ -184,14 +184,14 @@ var selected4 = "cosine-Similarity-Location"
 function cosineSimilarity_Location(){
 document.getElementById(selected4).classList.remove("active");
 var iframe = document.getElementById("high-low-similarity");
-iframe.src = "plot/cosineSimilarity_locations_boxplot.html"
+iframe.src = "plot/CS_nonefriends.html"
 selected4 =  "cosine-Similarity-Location"
 document.getElementById(selected4).classList.add("active");
 }
 function mostCommon_Location(){
 document.getElementById(selected4).classList.remove("active");
 var iframe = document.getElementById("high-low-similarity");
-iframe.src = "plot/mostCommon_locations_boxplot.html"
+iframe.src = "plot/MC_nonefriends.html"
 selected4 =  "most-Common-Location"
 document.getElementById(selected4).classList.add("active");
 }
@@ -204,7 +204,7 @@ As the plot shows, if you are accostumed to yoga studios, your movements are mos
 
 As mentioned before, having two persons in different countries makes a difference in places they visit, due to many factors such as culture. How does that translate in practice ? Let us look at the most common checkin location types for 10 major countries, through the following word clouds.
 
-<iframe id='mostCommon-countries' frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="550" src="plot/wordcloud.html"></iframe>
+<iframe id='mostCommon-countries' frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="550" src="plot/countries_most_visited.html"></iframe>
 
 Noodle places in Japan, bakeries in France and *soccer* fields in Great Britain? Sounds about right!
 
@@ -223,6 +223,6 @@ There indeed is a clear difference between the western world where most employee
 
 A person's movements is very complex to understand, as it includes many factors, one of which is the time of the year! How much do you think a user's movements depends on the season? Actually, quite a lot! The following plots show the distribution of checkins for some location type in 4 major countries.
 
-<iframe id='mostCommon-countries' frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="550" src="plot/seasonality_differentCountries.html"></iframe>
+<iframe id='mostCommon-countries' frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="550" src="plot/seasonality.html"></iframe>
 
 As it was to be expected, parks in Great Britain experience a real drought in the winter! This makes sense, no one wants to walk around Hyde Park in the freezing cold, right *mate*? It seems, however, that other locations do not follow this pattern. Shrines in Japan see their popularity doubled since almost all the Japanese gather to the shrines to wish for happiness for the following year at the new year's eve.
