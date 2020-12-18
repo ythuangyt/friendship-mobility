@@ -199,7 +199,7 @@ document.getElementById(selected4).classList.add("active");
 As the plot shows, if you are accostumed to yoga studios, your movements are most likely very similar to any person that takes yoga classes too, even if that person is a total stranger! On the other hand if you meet a stranger at a diner, it is less likely that you two have similar preferences when it comes to visiting places. After all this makes sense: your passion for yoga could be the consequence (or the cause) of other hobbies, which is likely also the case for other yoga passionates. However, the fact that you often go to the diner won't reveal much about you as a person!
 
 
-## What do people visit in your country?
+### What do people visit in your country?
 
 As mentioned before, having two persons in different countries makes a difference in places they visit, due to many factors such as culture. How does that translate in practice ? Let us look at the most common checkin location types for 10 major countries, through the following word clouds.
 
@@ -208,7 +208,7 @@ As mentioned before, having two persons in different countries makes a differenc
 Noodle places in Japan, bakeries in France and *soccer* fields in Great Britain? Sounds about right!
 
 
-## And you, at what time do you go to work?
+### And you, at what time do you go to work?
 
 Another big cultural difference between countries lies in the periodic behavoir of the society. For example, is it likely that a Swiss citizen and a Chinese citizen follow the same work hours ?
 
@@ -218,7 +218,7 @@ Well not really! Let us look at the distribution of checkins at the office throu
 
 There indeed is a clear difference between the western world where most employees follow a 9-to-5 job, and the eastern world where it is more likely to start working later, but also stay working later!
 
-## What do you have planned for the winter?
+### What do you have planned for the winter?
 
 A person's movements is very complex to understand, as it includes many factors, one of which is the time of the year! How much do you think a user's movements depends on the season? Actually, quite a lot! The following plots show the distribution of checkins for some location type in 4 major countries.
 
