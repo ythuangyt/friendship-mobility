@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Someone Like You
-cover-img: img/background_warm.jpg
+cover-img: img/background_warm.JPG
 ---
 
 Mobility is a part of the essence of life. It has opened many new doors to mankind and has allowed society to shape itself to what it is now. As Roman Payne said:
@@ -21,9 +21,7 @@ Well for example, a factor that affect mobility is how **sociable** a user is! A
 
 <p align="center"><iframe id='similarity_sociability_mean' frameborder="no" border="0" marginwidth="0" marginheight="0" width="67%" height="367" src="plot/CS_sociability.html"></iframe></p>
 
-As the plot shows, the more friends a person has, the (slightly) less unique she is, in the sense that their cosine similarity with people who have approximatly as much friends is higher.
-
-An explanation that comes to mind is that there are less users with a very high number of friends, so it could be expected that the "variance" in this group will less likely be large (it is less likely to find many "unique" users if the group of users is smaller). This could also be explained by the fact that the more a person has friends, the most likely they will get influenced by their friends, so their movements are usually less unique (and might follow trends).
+As the plot shows, in the group who has more friends, their cosine similarity with people who have approximatly as much friends is higher. Namely, people with higher sociability like to visit similar location types.
 
 Another potential factor is the **average traveling distance of a user**. How similar is a group of users' mobility accoding to how far users usually travel from their house? To study this we computed a house for each users and took the average distance between the user's home and the checkin's location. The following plot shows the median cosine similarity for users with similar traveling distances.
 
