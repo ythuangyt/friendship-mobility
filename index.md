@@ -3,7 +3,6 @@ layout: page
 title: Someone Like You
 bigimg: img/globe.jpg
 ---
-### Introduction
 
 Mobility is apart of the essence of life, it has opened many new doors to mankind and has allowed society to shape itself to what it is now. As Roman Payne said:
 > A person does not grow from the ground like a vine or a tree, one is not part of a plot of land. Mankind has legs so it can wander.
@@ -12,6 +11,7 @@ For these reasons, human mobility is a topic that has always drawn attention of 
 
 The dataset we used inlcudes long-term (about two years) global-scale checkins collected from the Foursquare application, as well as two snapshots of users' friendship before and after the checkin collection period. A checkin includes the User ID, the Venue ID and the time at which it was taken. For each venue, the dataset also provides the country of location, the latitude/longitude coordinates as well as the venue category. Categories include "Post Office", "Pub" or even "Paella Restaurant" for a total of around 500 different categories. Using this dataset we will analyze the effect of multiple factors on the similarity of user's mobility through.
 
+### What are the factors?
 So what exactly are those factors ? Well for example, a factor that affect mobility is how sociable a user is! According to their number of friends, how unique do you think a user's movements in regards to other users with a similar number of friends is ? The following plot represents the median cosine similarity for users with similar sociability.
 
 <p align="center"><iframe id='similarity_sociability_mean' frameborder="no" border="0" marginwidth="0" marginheight="0" width="67%" height="367" src="plot/CS_sociability.html"></iframe></p>
