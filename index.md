@@ -9,9 +9,9 @@ Mobility is apart of the essence of life, it has opened many new doors to mankin
 
 For these reasons, human mobility is a topic that has always drawn attention of researchers. Many studies have been led around analyzing coarse-grained human mobility through statistical model. In this datastory, we extend our horizon and study **fine-grained** human mobility by looking at the evolution of human mobility on a day-to-day basis.
 
-The dataset we used inlcudes long-term (2012.04 - 2014.01) global-scale checkins collected from the Foursquare application, as well as two snapshots of users' friendship before and after the checkin collection period. A checkin includes the User ID, the Venue ID and the time at which it was taken. For each venue, the dataset also provides the country of location, the latitude/longitude coordinates as well as the venue category. Categories include "Post Office", "Pub" or even "Paella Restaurant" for a total of around 500 different categories. Using this dataset we will analyze the effect of multiple factors on the similarity of user's mobility through.
+The dataset we used inlcudes long-term (2012.04-2014.01) global-scale checkins collected from the Foursquare application, as well as two snapshots of users' friendship before and after the checkin collection period. A checkin includes the User ID, the Venue ID and the time at which it was taken. For each venue, the dataset also provides the country of location, the latitude/longitude coordinates as well as the venue category. Categories include "Post Office", "Pub" or even "Paella Restaurant" for a total of around 500 different categories. Using this dataset we will analyze the effect of multiple factors on the similarity of user's mobility through.
 
-### So, what are the factors?
+### So, what could be the factors that influence the mobility?
 Well for example, a factor that affect mobility is how sociable a user is! According to their number of friends, how unique do you think a user's movements in regards to other users with a similar number of friends is ? The following plot represents the median cosine similarity for users with similar sociability.
 
 <p align="center"><iframe id='similarity_sociability_mean' frameborder="no" border="0" marginwidth="0" marginheight="0" width="67%" height="367" src="plot/CS_sociability.html"></iframe></p>
@@ -24,11 +24,11 @@ Another potential factor is the average traveling distance of a user. How simila
 
 <p align="center"><iframe id='similarity_distance_mean' frameborder="no" border="0" marginwidth="0" marginheight="0" width="66%" height="367" src="plot/CS_distance.html"></iframe></p>
 
-The plot shows that on a smaller distance scale, the more a person travels, the most "unique" they are. This can be explained by a few things: first of all traveling somewhat obligates a person to vary its visits: a Swiss citizen won't necessarly have many occasion to eat fondue if they travel a lot! People traveling a lot won't necessarly travel in the same places so it explains that their visits are different from one another. This explication seems satisfying but it cannot explain everything: indeed a group of people traveling an average of 5km will have a much higher similarity than a group who travels in average 50km, even though the difference between both average distances is not that large (50km is still probably in the same city or in a neighbor one).
+The plot shows that on a smaller distance scale, the more a person travels, the most "unique" they are. This can be explained by a few things: first of all traveling somewhat obligates a person to vary its visits: a Swiss citizen won't necessarly have many occasion to eat fondue if they travel a lot! People traveling a lot won't necessarly travel in the same places so it explains that their visits are different from one another. This explication seems satisfying but it cannot explain everything: indeed a group of people traveling an average of 5 km will have a much higher similarity than a group who travels in average 50 km, even though the difference between both average distances is not that large (50 km is still probably in the same city or in a neighbor one).
 
 Notice also that for much higher distances, the similarity goes back up. This can be explained by the fact that users traveling very long distances will probably all check-in at a hotel or a restaurant, but not at their home!
 
-Out of the many factors and relashionships between humans we study the effect of frendship (or strangerhood) and the location around the globe on the similarity of mobility.
+Out of the many factors and relationships between humans, we study the effect of friendship (or strangerhood) and the location around the globe on the similarity of mobility.
 
 ### How close are you to your friends?
 
