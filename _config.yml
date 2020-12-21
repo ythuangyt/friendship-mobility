@@ -1,6 +1,7 @@
 # --- General options --- #
 
 # Name of website
+# title: Someone Like You
 
 # Short description of your site
 description: ADA 2020
@@ -48,7 +49,7 @@ footer-link-col: "#404040"
 
 # navbar-img: "/img/bgimage.png"
 # footer-img: "/img/bgimage.png"
-# page-img: "/img/globe.jpg"
+# page-img: "/img/bgimage.png"
 
 # --- Footer options --- #
 
