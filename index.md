@@ -12,7 +12,7 @@ For these reasons, human mobility is a topic that has always drawn attention of 
 The dataset we used inlcudes long-term (2012.04-2014.01) global-scale checkins collected from the Foursquare application, as well as two snapshots of users' friendship before and after the checkin collection period. A checkin includes the User ID, the Venue ID and the time at which it was taken. For each venue, the dataset also provides the country of location, the latitude/longitude coordinates as well as the venue category. Categories include "Post Office", "Pub" or even "Paella Restaurant" for a total of around 500 different categories. Using this dataset we will analyze the effect of multiple factors on the similarity of user's mobility through.
 
 ### So, what could be the factors that influence the mobility?
-Well for example, a factor that affect mobility is how sociable a user is! According to their number of friends, how unique do you think a user's movements in regards to other users with a similar number of friends is ? The following plot represents the median cosine similarity for users with similar sociability.
+Well for example, a factor that affect mobility is how **sociable** a user is! According to their number of friends, how unique do you think a user's movements in regards to other users with a similar number of friends is ? The following plot represents the median cosine similarity for users with similar sociability.
 
 <p align="center"><iframe id='similarity_sociability_mean' frameborder="no" border="0" marginwidth="0" marginheight="0" width="67%" height="367" src="plot/CS_sociability.html"></iframe></p>
 
@@ -20,7 +20,7 @@ As the plot shows, the more friends a person has, the (slightly) less unique she
 
 An explanation that comes to mind is that there are less users with a very high number of friends, so it could be expected that the "variance" in this group will less likely be large (it is less likely to find many "unique" users if the group of users is smaller). This could also be explained by the fact that the more a person has friends, the most likely they will get influenced by their friends, so their mouvements are usually less unique (and might follow trends).
 
-Another potential factor is the average traveling distance of a user. How similar is a group of users' mobility accoding to how far users usually travel from their house? To study this we computed a house for each users and took the average distance between the user's home and the checkin's location. The following plot shows the median cosine similarity for users with similar traveling distances.
+Another potential factor is the **average traveling distance of a user**. How similar is a group of users' mobility accoding to how far users usually travel from their house? To study this we computed a house for each users and took the average distance between the user's home and the checkin's location. The following plot shows the median cosine similarity for users with similar traveling distances.
 
 <p align="center"><iframe id='similarity_distance_mean' frameborder="no" border="0" marginwidth="0" marginheight="0" width="66%" height="367" src="plot/CS_distance.html"></iframe></p>
 
