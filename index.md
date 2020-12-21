@@ -72,7 +72,7 @@ document.getElementById(selected1).classList.add("active");
 }
 </script>
 
-Unquestionably, friends should have more similar checkins than strangers, regardless of whether the friends are from different countries or not. Likewise, people from the same country shares more similarity than people from different ones due the cultural differences, living habits and etc.. As we can see in the figure, the similarity of friends from the same country is the highest among the four categories, and the similarity of strangers from different countries is the lowest. Between the two extremes are the similarity distributions of same country strangers and different counrties friends. Based on the fact that the latter is higher than the former, we conclude that the bonds between you and your cross-counrty friends are stronger than the habits that you share with the people from your country.
+As we can see in the figure, the similarity of friends from the same country is the highest among the four categories, and the similarity of strangers from different countries is the lowest. As we expect, friends have more similar checkins than strangers, regardless of whether the friends are from different countries or not. Likewise, people from the same country shares more similarity than people from different ones due to cultural differences, living habits, etc.. In addition, different countries friends are more similar than same countries strangers. We conclude that the bonds between you and your cross-country friends are stronger than strangers from the same country, even though he or she might share the same habits with you.
 
 ### How far away are the strangers?
 
