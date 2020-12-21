@@ -9,12 +9,12 @@ Mobility is a part of the essence of life. It has opened many new doors to manki
 
 For these reasons, human mobility is a topic that has always drawn attention of researchers. Many studies have been led around analyzing coarse-grained human mobility through statistical model. In this datastory, we extend our horizon and study **fine-grained** human mobility by looking at the evolution of human mobility on a day-to-day basis.
 
-The dataset we used inlcudes long-term (2012.04-2014.01) global-scale checkins collected from the Foursquare application, as well as two snapshots of users' friendship before and after the checkin collection period. A checkin includes the User ID, the Venue ID and the time at which it was taken. For each venue, the dataset also provides the country of location, the latitude/longitude coordinates as well as the venue category. Categories include "Post Office", "Pub" or even "Paella Restaurant" for a total of around 500 different categories. Using this dataset we will analyze the effect of multiple factors on the **similarity** of user's mobility.
+The dataset we used inlcudes long-term (2012.04-2014.01) global-scale checkins collected from the Foursquare application, as well as two snapshots of users' friendship before and after the checkin collection period. A checkin includes the User ID, the Location ID and the time at which it was taken. For each location, the dataset also provides the country of it, the latitude/longitude coordinates as well as the location type, which include "Post Office", "Pub" or even "Paella Restaurant" for a total of around 500 different categories. Using this dataset we will analyze the effect of multiple factors on the **similarity** of user's mobility.
 
 ### How to define similarity?
-We use two criteria to estimate checkins' similarity, which are cosine similarity and intersection of most common visited location categories. 
+We use two criteria to estimate checkins' similarity, which are cosine similarity and intersection of most common visited location types. 
 1. **Cosine Similarity**: We first estimate the probablity that a user is checking in each location, and call it the location probability vector. Namely, for each user, we calculate the vector by dividing the numbers of checkins in each location over the total number of checkins. The cosine similarity between two users is the normalized dot product of two users' location probability vector.
-2. **Intersection of Most Common Visited Location Categories**: We first find 20 locations that a user has the most checkins, then calculate the size of the intersection of the two users' commom locations.
+2. **Intersection of Most Common Visited Location Types**: We first find 20 locations that a user has the most checkins, then calculate the size of the intersection of the two users' commom locations.
 
 ### So, what could be the factors that influence the mobility?
 Well for example, a factor that affect mobility is how **sociable** a user is! According to their number of friends, how unique do you think a user's movements in regards to other users with a similar number of friends is ? The following plot represents the median cosine similarity for users with similar sociability.
@@ -35,7 +35,7 @@ After looking into this high-level investigation on similarity of two of people'
 
 ### How close are you to your friends?
 
-How similar are you and your friends checkins' pattern? How often do you go to the same type of locations as your friends? Do you all enjoy Italian food and outdoor acticities?
+How similar are you and your friends' checkins' pattern? How often do you go to the same type of locations as your friends? Do you all enjoy Italian food and outdoor acticities?
 
 We investigate two kinds of checkins' similarity between users in four categories of relationships and show the empirical distribution of the similarity in each categories.
 
