@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Someone Like You
-cover-img: img/background.jpg
+cover-img: img/background_warm.jpg
 ---
 
 Mobility is a part of the essence of life. It has opened many new doors to mankind and has allowed society to shape itself to what it is now. As Roman Payne said:
