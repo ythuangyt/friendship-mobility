@@ -21,7 +21,7 @@ Well for example, a factor that affect mobility is how **sociable** a user is! A
 
 <p align="center"><iframe id='similarity_sociability_mean' frameborder="no" border="0" marginwidth="0" marginheight="0" width="67%" height="367" src="plot/CS_sociability.html"></iframe></p>
 
-As the plot shows, in the group who has more friends, their cosine similarity with people who have approximatly as much friends is higher. Namely, people with higher sociability like to visit similar location types.
+As the plot shows, in the group who has more friends, their cosine similarity with people who have approximatly as much friends is higher. Namely, people with higher sociability migh prefer to visit similar location types.
 
 Another potential factor is the **average traveling distance of a user**. How similar is a group of users' mobility accoding to how far users usually travel from their house? To study this we computed a house for each users and took the average distance between the user's home and the checkin's location. The following plot shows the median cosine similarity for users with similar traveling distances.
 
