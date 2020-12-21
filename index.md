@@ -13,7 +13,7 @@ The dataset we used inlcudes long-term (2012.04-2014.01) global-scale checkins c
 
 ### How to define similarity?
 We use two criteria to estimate checkins' similarity, which are cosine similarity and intersection of most common visited location categories. 
-1. **Cosine Similarity**: We first estimate the probablity that a user is checking in each location, and call it the location probability vector. Namely, for each user, we calculate the vector by dividing the numbers of checkins in each location over their the total number of checkins. The cosine similarity between two users is the normalized dot product of two users' location probability vector.
+1. **Cosine Similarity**: We first estimate the probablity that a user is checking in each location, and call it the location probability vector. Namely, for each user, we calculate the vector by dividing the numbers of checkins in each location over the total number of checkins. The cosine similarity between two users is the normalized dot product of two users' location probability vector.
 2. **Intersection of Most Common Visited Location Categories**: We first 20 locations that a user has the most checkins, then calculate the size of the intersection of the two users' commom locations.
 
 ### So, what could be the factors that influence the mobility?
