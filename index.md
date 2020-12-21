@@ -4,7 +4,7 @@ title: Someone Like You
 cover-img: img/background.jpg
 ---
 
-Mobility is apart of the essence of life, it  has opened many new doors to mankind and has allowed society to shape itself to what it is now. As Roman Payne said:
+Mobility is apart of the essence of life, it has opened many new doors to mankind and has allowed society to shape itself to what it is now. As Roman Payne said:
 > A person does not grow from the ground like a vine or a tree, one is not part of a plot of land. Mankind has legs so it can wander.
 
 For these reasons, human mobility is a topic that has always drawn attention of researchers. Many studies have been led around analyzing coarse-grained human mobility through statistical model. In this datastory, we extend our horizon and study **fine-grained** human mobility by looking at the evolution of human mobility on a day-to-day basis.
