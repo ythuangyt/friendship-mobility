@@ -201,15 +201,23 @@ document.getElementById(selected4).classList.add("active");
 
 As the plot shows, if you are accustomed to yoga studios, your movements are most likely to be very similar to anyone taking yoga classes too, even if that person is a total stranger! On the other hand if you meet a stranger at a diner, it is less likely that you two have similar preferences in terms of location types. This makes sense: your passion for yoga could be the consequence (or the cause) of other hobbies, which might be also the case for other yoga passionates. Frequent Bar, nightclub are On the contrary, the fact that you often go to the diner won't reveal much about you as a person.
 
+### Do you know where people go in Japan?
 
-### What do people visit in your country?
-
-As mentioned before, having two persons in different countries makes a difference in places they visit, due to many factors such as culture. How does that translate in practice ? Let us look at the most common checkin location types for 10 major countries, through the following word clouds.
+We see that, people from  countries indeed visit different location types, due to many factors such as culture. How does that translate in practice ? Let's look at the most 50 common checkin location types for 10 major countries through the following word clouds. (You can choose the countries at dropdown button.)
 
 <iframe id='mostCommon-countries' frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="550" src="plot/countries_most_visited.html"></iframe>
 
-Noodle places in Japan, bakeries in France and *soccer* fields in Great Britain? Sounds about right!
+In US wordcloud, you can see the words with more American Style, such as "Burgers", "Steakhouse", "Mexican", "BBQ". In Japan, you can see the words with more Japanese style, such as "Ramen", "Noodle", "Train Station", "Shrine".
 
+*Scenic Lookout* in Switzerland, *Hockey* in Canada, *Bakeries* in France and *Pub* in Great Britain? Sounds about right!
+
+### What do you have planned for the winter?
+
+A person's movements is very complex to understand, as it includes many factors, one of which is the time of the year! How much do you think a user's movements depends on the season? Actually, quite a lot! The following plots show the distribution of checkins for some location type in 4 major countries.
+
+<iframe id='mostCommon-countries' frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="550" src="plot/seasonality.html"></iframe>
+
+As it was to be expected, parks in Great Britain experience a real drought in the winter! This makes sense, no one wants to walk around Hyde Park in the freezing cold, right *mate*? It seems, however, that other locations do not follow this pattern. Shrines in Japan see their popularity doubled since almost all the Japanese gather to the shrines to wish for happiness for the following year at the new year's eve.
 
 ### And you, at what time do you go to work?
 
@@ -220,11 +228,3 @@ Well not really! Let us look at the distribution of checkins at the office throu
 <iframe id='mostCommon-countries' frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="550" src="plot/periodic.html"></iframe>
 
 There indeed is a clear difference between the western world where most employees follow a 9-to-5 job, and the eastern world where it is more likely to start working later, but also stay working later!
-
-### What do you have planned for the winter?
-
-A person's movements is very complex to understand, as it includes many factors, one of which is the time of the year! How much do you think a user's movements depends on the season? Actually, quite a lot! The following plots show the distribution of checkins for some location type in 4 major countries.
-
-<iframe id='mostCommon-countries' frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="550" src="plot/seasonality.html"></iframe>
-
-As it was to be expected, parks in Great Britain experience a real drought in the winter! This makes sense, no one wants to walk around Hyde Park in the freezing cold, right *mate*? It seems, however, that other locations do not follow this pattern. Shrines in Japan see their popularity doubled since almost all the Japanese gather to the shrines to wish for happiness for the following year at the new year's eve.
