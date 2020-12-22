@@ -112,10 +112,11 @@ selected3 = "mostCommon_6Relationship"
 document.getElementById(selected3).classList.add("active");
 }
 </script>
+Consider each user as a node in a graph, and edges represent the friendship between users. 2-edges friends of one user are those whose distance to that user is 2-edges in the graph. The same rules apply to 3-5 edges friends.
 
-For friends from both same and different countries, we measure the similarity distribution of 1 to 5-edges friendships and the strangers. Undoubtedly, as the edge of the friendships grows, the similarity decrease. Among all, we noticed that the similarity of strangers falls approximately between the similarity of 4-edges and 5-edges friendship.
+For friends from same and different countries, we measure the similarity distribution of friends, 2 to 5-edges friends and pairs of strangers. Undoubtedly, as the edge number of the friends grows, the similarity decreases. Among all, we noticed that the similarity of strangers falls approximately between the similarity of 4-edges and 5-edges friends.
 
-To see how far away the strangers are, let us start discussing from your 5-edges friends. As we can see in the figure, both distributions show that you are really far away from your 5-edges friends, and you are even further away from the ones ones in a different country. The difference between the two distributions lies the diversity of cultures and lifestyles. Then as the number of edges decreases, the similarity between friends grows, and the gap between the same and different countries friendship decrease. Surprisingly, the gap is barely recognizable between the two categories of 1-edges friends! It appears that as the friendship is getting closer and closer, the bond that ties you and your cross-counrty friends together will the cultural differnce between you.
+To see how far away the strangers are, let us start discussing from your 5-edges friends. As we can see in the figure, distribution of cosine similarity and most common location types show that one is really far away from 5-edges friends, and even further away from the ones in a different country. Distributions difference of people from the same and different countries results from the diversity of cultures and lifestyles. As the number of edges decreases, the similarity between friends grows, and the gap between the same and different countries decreases. Surprisingly, the gap of same and different countries is barely recognizable between friends! It appears that as the friendship is getting closer and closer, the bond that ties you and your cross-counrty friends together will stronger than the cultural differnce between two of you.
 
 
 ###  Is your friendship fading?
