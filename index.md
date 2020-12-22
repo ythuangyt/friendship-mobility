@@ -165,7 +165,9 @@ Observed from the figure, the distribution of the similarity change of old frien
 
 ### Why do I keep bumping into you?
 
-Do you ever feel that, you see a person at a certain place, say your yoga class, then keep on bumping into him or her at other unrelated places? Does that actually have any statistical sense? The following plot shows the quantile box plot for cosine similarity and common location similarity between non-friend users who check in at certain places, for quite a few location types. We focus on **local** check-in behaviors in this question, so we only look into the check-ins in one specific country. (We take US as our example, since check-in data in US are the most.)
+Do you ever feel that, you see a person at a certain place, say your yoga class, then keep on bumping into him or her at other unrelated places? Does that actually have any statistical sense? We focus on **local** check-in behaviors in this question, so we only look into the check-ins in one specific country. (We take US as our example, since check-in data amount in US are the most.) 
+
+The following plot shows the quantile box plot for cosine similarity and common location similarity between non-friend users who check in at certain places, for quite a few location types.
 
 <div class="row">
   <div class="col-sm"></div>
