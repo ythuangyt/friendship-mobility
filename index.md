@@ -199,7 +199,7 @@ document.getElementById(selected4).classList.add("active");
 }
 </script>
 
-As the plot shows, if you are accustomed to yoga studios, your movements are most likely to be very similar to anyone taking yoga classes too, even if that person is a total stranger! On the other hand if you meet a stranger at a diner, it is less likely that you two have similar preferences in terms of location types. After all this makes sense: your passion for yoga could be the consequence (or the cause) of other hobbies, which is likely also the case for other yoga passionates. However, the fact that you often go to the diner won't reveal much about you as a person!
+As the plot shows, if you are accustomed to yoga studios, your movements are most likely to be very similar to anyone taking yoga classes too, even if that person is a total stranger! On the other hand if you meet a stranger at a diner, it is less likely that you two have similar preferences in terms of location types. This makes sense: your passion for yoga could be the consequence (or the cause) of other hobbies, which might be also the case for other yoga passionates. Frequent Bar, nightclub are On the contrary, the fact that you often go to the diner won't reveal much about you as a person.
 
 
 ### What do people visit in your country?
