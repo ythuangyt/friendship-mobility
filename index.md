@@ -121,7 +121,7 @@ To see how far away the strangers are, let's first look into 5-edges friends. As
 
 ###  Is your friendship fading?
 
-What about the variation of friendship over time? As you are making new friends, are you still hanging up with your old ones?
+What about the variation of friendship over time? As you are making new friends, are you still hanging out with your old ones?
 
 It seems not, does it?
 
