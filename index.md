@@ -203,7 +203,7 @@ As the plot shows, if you are accustomed to yoga studios, your movements are mos
 
 ### Do you know where people go in Japan?
 
-From above analyses we see that, people from  countries indeed visit different location types, due to many factors such as culture. How does that translate in practice ? Let's look at the most 50 common checkin location types for 10 major countries through the following word clouds. (You can choose the countries at dropdown button.)
+From above analyses, we see that people from  countries indeed visit different location types, due to many factors such as culture. How does that translate in practice ? Let's look at the most 50 common checkin location types for 10 major countries through the following word clouds. (You can choose the countries at dropdown button.)
 
 <iframe id='mostCommon-countries' frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="550" src="plot/countries_most_visited.html"></iframe>
 
