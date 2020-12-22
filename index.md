@@ -201,9 +201,11 @@ document.getElementById(selected4).classList.add("active");
 
 As the plot shows, if you are accustomed to yoga studios, your movements are most likely to be very similar to anyone taking yoga classes too, even if that person is a total stranger! On the other hand if you meet a stranger at a diner, it is less likely that you two have similar preferences in terms of location types. This makes sense: your passion for yoga could be the consequence (or the cause) of other hobbies, which might be also the case for other yoga passionates. Frequent Bar, nightclub are On the contrary, the fact that you often go to the diner won't reveal much about you as a person.
 
+From above analyses, we see that people from different countries indeed visit different location types, due to many factors such as culture. How does that translate in practice? In the following, we study the periodic and non-periodic behaviors difference between countries.
+
 ### Do you know where people go in Japan?
 
-From above analyses, we see that people from  countries indeed visit different location types, due to many factors such as culture. How does that translate in practice ? Let's look at the most 50 common checkin location types for 10 major countries through the following word clouds. (You can choose the countries at dropdown button.)
+Let's look at the most 50 common checkin location types for 10 major countries through the following word clouds. (You can choose the countries at dropdown button.)
 
 <iframe id='mostCommon-countries' frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="550" src="plot/countries_most_visited.html"></iframe>
 
@@ -219,13 +221,13 @@ Actually, quite a lot!
 
 <iframe id='mostCommon-countries' frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="550" src="plot/seasonality.html"></iframe>
 
-As it was to be expected, parks, outdoor activites, beach, ice cream shop experience a real drought in the winter. No one wants to walk around Hyde Park or sit on the beach in the freezing cold, right *mate*? Rather, shrines and temples in Japan are popular in winter since Japanese would visit these two places at the new year's eve to wish for happiness for the following year.
+It was to be expected, parks, outdoor activites, beach, ice cream shop experience a real drought in the winter. No one wants to walk around Hyde Park or sit on the beach in the freezing cold, right *mate*? Rather, shrines and temples in Japan are popular in winter since Japanese would visit these two places at the new year's eve to wish for happiness for the following year.
 
 ### And you, at what time do you go to work?
 
-Another big cultural difference between countries lies in the periodic behavoir of the society. For example, is it likely that a Swiss citizen and a Chinese citizen follow the same work hours ?
+In addition to non-periodic behaviors, periodic behavior also demonstrate the cultural difference. For instance, is it likely that a Swiss resident and a Chinese resident follow the same working hours ?
 
-Well not really! Let us look at the distribution of checkins at the office throughout the world, as a function of time.
+Well not really! Let's look at the probability of checking-in office at different periods around the world.
 
 <iframe id='mostCommon-countries' frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="550" src="plot/periodic.html"></iframe>
 
