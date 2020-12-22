@@ -161,7 +161,7 @@ document.getElementById(selected2).classList.add("active");
 }
 </script>
 
-Observed from the figure, the distribution of the similarity change of old friendships puts more weights on negative values, while changes in new friends tend toward positive values. On average, you and your old friends seem to not visit as many commom place as before. 
+Observed from the figure, the distribution of the similarity change of old friends puts more weights on negative values, while changes in new friends tend toward positive values. On average, you and your old friends seem to not visit as many commom place as before. 
 
 ### Why do I keep bumping into you?
 
