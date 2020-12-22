@@ -73,7 +73,7 @@ document.getElementById(selected1).classList.add("active");
 </script>
 As we expect, friends have more similar checkins than strangers, regardless of whether the friends are from different countries or not. Likewise, people from the same country shares more similarity than people from different ones due to cultural differences, living habits, etc...
 
-As we can see in the figure, the similarity of friends from the same country is the highest among the four categories, and the similarity of strangers from different countries is the lowest. What gives us more information is that, different countries friends are more similar than same countries strangers. We conclude that the bonds between you and your cross-country friends are stronger than strangers living in the same country, even though he or she might share the same living habits with you, or you two have some visiting location types limits (it is harder to find a ramen shop in Switzerland than in Japan).
+As we can see in the figure, the similarity of friends from the same country is the highest among the four categories, and the similarity of strangers from different countries is the lowest. What gives us more information is that, different countries friends are more similar than same countries strangers. We conclude that the bonds between you and your cross-country friends are stronger than strangers living in the same country, even though he or she might share the same living habits with you, or you two have some visiting location types limits (unquestionably, it is harder to find a ramen shop in Switzerland than in Japan).
 
 ### How far away are the strangers?
 
