@@ -219,9 +219,7 @@ Actually, quite a lot!
 
 <iframe id='mostCommon-countries' frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="550" src="plot/seasonality.html"></iframe>
 
-As it was to be expected, parks, outdoor activites, beach, ice cream shop experience a real drought in the winter! No one wants to walk around Hyde Park or sit on the beach in the freezing cold, right *mate*? 
-
-Shrines and temples in Japan are popular in winter since Japanese would visit these two places at the new year's eve to wish for happiness for the following year.
+As it was to be expected, parks, outdoor activites, beach, ice cream shop experience a real drought in the winter. No one wants to walk around Hyde Park or sit on the beach in the freezing cold, right *mate*? Rather, shrines and temples in Japan are popular in winter since Japanese would visit these two places at the new year's eve to wish for happiness for the following year.
 
 ### And you, at what time do you go to work?
 
