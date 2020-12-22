@@ -213,11 +213,15 @@ In US wordcloud, you can see the words with more American Style, such as "Burger
 
 ### What do you have planned for the winter?
 
-A person's movements is very complex to understand, as it includes many factors, one of which is the time of the year! How much do you think a user's movements depends on the season? Actually, quite a lot! The following plots show the distribution of checkins for some location type in 4 major countries.
+How much do you think a user's movements depends on the season? 
+
+Actually, quite a lot! 
 
 <iframe id='mostCommon-countries' frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="550" src="plot/seasonality.html"></iframe>
 
-As it was to be expected, parks in Great Britain experience a real drought in the winter! This makes sense, no one wants to walk around Hyde Park in the freezing cold, right *mate*? It seems, however, that other locations do not follow this pattern. Shrines in Japan see their popularity doubled since almost all the Japanese gather to the shrines to wish for happiness for the following year at the new year's eve.
+As it was to be expected, parks, outdoor activites, beach, ice cream shop experience a real drought in the winter! No one wants to walk around Hyde Park or sit on the beach in the freezing cold, right *mate*? 
+
+Shrines and temples in Japan are popular in winter since Japanese would visit these two places at the new year's eve to wish for happiness for the following year.
 
 ### And you, at what time do you go to work?
 
