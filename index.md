@@ -165,7 +165,7 @@ Observed from the figure, the distribution of the similarity change of old frien
 
 ### Why do I keep bumping into you?
 
-Do you ever feel that, you see a person at a certain place, say your yoga class, then keep on bumping into him or her at other unrelated places? Does that actually have any statistical sense? The following plot shows the quantile box plot for cosine similarity and common location similarity between non-friend users who check in at certain places, for quite a few location types.
+Do you ever feel that, you see a person at a certain place, say your yoga class, then keep on bumping into him or her at other unrelated places? Does that actually have any statistical sense? The following plot shows the quantile box plot for cosine similarity and common location similarity between non-friend users who check in at certain places, for quite a few location types. We focus on **local** check-in behaviors in this question, so we only look into the check-ins in one specific country. (We take US as our example, since check-in data in US are the most.)
 
 <div class="row">
   <div class="col-sm"></div>
@@ -199,7 +199,9 @@ document.getElementById(selected4).classList.add("active");
 }
 </script>
 
-As the plot shows, if you are accustomed to yoga studios, your movements are most likely to be very similar to anyone taking yoga classes too, even if that person is a total stranger! On the other hand if you meet a stranger at a diner, it is less likely that you two have similar preferences in terms of location types. This makes sense: your passion for yoga could be the consequence (or the cause) of other hobbies, which might be also the case for other yoga passionates. Frequent Bar, nightclub are On the contrary, the fact that you often go to the diner won't reveal much about you as a person.
+In this figure, cosine similarity makes more sense than most common visited locations since the former captures ones' visiting **frequency** while the latter doesn't.
+
+As the plot shows, those who are accustomed to yoga studios, gym, bar or nightclub will resemble each other more, even if they are total strangers! Also, who goes to hospital more frequently will be similar to each other since they might have long-term treatment.
 
 From above analyses, we see that people from different countries indeed visit different location types, due to many factors such as culture. How does that translate in practice? In the following, we study the periodic and non-periodic behaviors difference between countries.
 
