@@ -77,7 +77,7 @@ As we can see in the figure, the similarity of friends from the same country is 
 
 ### How far away are the strangers?
 
-Do you know how different are the similarity between you and your buddies from the similarity between you and some guy on the other side of the world that you have never seen before?
+Do you know how large are the similarity difference between you and your buddies, and between you and some guy on the other side of the world that you have never seen before?
 
 Actually, they are not that different.
 
