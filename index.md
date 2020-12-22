@@ -203,7 +203,7 @@ document.getElementById(selected4).classList.add("active");
 
 In this figure, cosine similarity makes more sense than most common visited locations since the former captures ones' visiting **frequency** while the latter doesn't.
 
-As the plot shows, those who are accustomed to yoga studios, gym, bar or nightclub will resemble each other more, even if they are total strangers! Also, who goes to hospital more frequently will be similar to each other since they might have long-term treatment.
+As the plot shows, those who are accustomed to yoga studios, gym, bar or nightclub will resemble each other more, even if they are total strangers! Also, who goes to hospital more frequently will be similar to each other since they might receive long-term treatment. On the contrary, people you meet in the restaurant and scenic lookout will be more like a random stranger pass by your life.
 
 From above analyses, we see that people from different countries indeed visit different location types, due to many factors such as culture. How does that translate in practice? In the following, we study the periodic and non-periodic behaviors difference between countries.
 
