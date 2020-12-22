@@ -81,6 +81,8 @@ Do you know how large are the similarity difference between you and your buddies
 
 Actually, they are not that different.
 
+Consider each user as a node in a graph, and edges represent the friendship between users. 1-edge friends are those who are direct friends. 2-edges friends of one user are those whose distance to that user are 2-edges in the graph. The same rule applies to 3-5 edges friends.
+
 <div class="row">
   <div class="col-sm"></div>
   <div class="col-sm">
@@ -112,7 +114,6 @@ selected3 = "mostCommon_6Relationship"
 document.getElementById(selected3).classList.add("active");
 }
 </script>
-Consider each user as a node in a graph, and edges represent the friendship between users. 1-edge friends are those who are direct friends. 2-edges friends of one user are those whose distance to that user are 2-edges in the graph. The same rule applies to 3-5 edges friends.
 
 For people from same and different countries, we measure the similarity distribution of 1 to 5-edges friends and pairs of strangers. Undoubtedly, as the edge number of the friends grows, the similarity decreases. Among all, we noticed that the similarity of pairs of strangers falls approximately between the similarity of 4-edges and 5-edges friends.
 
@@ -124,6 +125,8 @@ To see how far away the strangers are, let's first look into 5-edges friends. As
 What about the variation of friendship over time? As you are making new friends, are you still hanging out with your old ones?
 
 It seems not, does it?
+
+For friendships being captured **after** all check-in data were collected (2014.01), we seperate them into two groups. Old friends are those who were already friends **before** check-in data were collected (2012.04). New friends are new connections within the collection periods. Between each pair of users, we calculate similarity change of them from 2012 to 2013, and report the histogram in the following.
 
 <div class="row">
   <div class="col-sm"></div>
@@ -158,14 +161,11 @@ document.getElementById(selected2).classList.add("active");
 }
 </script>
 
-For each pair of friends in 2014, we calculate difference between the similarity in 2013 and 2012 and group it by whether the friendship is a old one that exists in 2012 or it is a new one just made in these two years.
-
-Compared with new friendships, the distributiion of the difference in similarity of old friendships puts more weights on negative values. According to the figure, on average, you and your old friends seem to have less commom place to go. Just like you to start to be fond of eating burgers and make new friends in fast food restaurant but your old friends are still having pizzas.
-
+Observed from the figure, the distribution of the similarity change of old friendships puts more weights on negative values, while changes in new friends tend toward positive values. On average, you and your old friends seem to not visit as many commom place as before. 
 
 ### Why do I keep bumping into you?
 
-Does it ever feel like you see a person at a certain place, say your yoga class, then keep on bumping into them at other unrelated places ? Does that actually have any statistical sense ? The following plot shows the quantile box plot for cosine similarity and common location similarity between non-friend users who check in at certain places, for quite a few location types.
+Do you ever feel that, you see a person at a certain place, say your yoga class, then keep on bumping into him or her at other unrelated places? Does that actually have any statistical sense? The following plot shows the quantile box plot for cosine similarity and common location similarity between non-friend users who check in at certain places, for quite a few location types.
 
 <div class="row">
   <div class="col-sm"></div>
@@ -199,7 +199,7 @@ document.getElementById(selected4).classList.add("active");
 }
 </script>
 
-As the plot shows, if you are accostumed to yoga studios, your movements are most likely very similar to any person that takes yoga classes too, even if that person is a total stranger! On the other hand if you meet a stranger at a diner, it is less likely that you two have similar preferences when it comes to visiting places. After all this makes sense: your passion for yoga could be the consequence (or the cause) of other hobbies, which is likely also the case for other yoga passionates. However, the fact that you often go to the diner won't reveal much about you as a person!
+As the plot shows, if you are accustomed to yoga studios, your movements are most likely to be very similar to anyone taking yoga classes too, even if that person is a total stranger! On the other hand if you meet a stranger at a diner, it is less likely that you two have similar preferences in terms of location types. After all this makes sense: your passion for yoga could be the consequence (or the cause) of other hobbies, which is likely also the case for other yoga passionates. However, the fact that you often go to the diner won't reveal much about you as a person!
 
 
 ### What do people visit in your country?
