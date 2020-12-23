@@ -234,3 +234,9 @@ Well not really! Let's look at the probability of checking-in office at differen
 <iframe id='mostCommon-countries' frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="550" src="plot/periodic.html"></iframe>
 
 There indeed is a clear difference between the western world where most employees follow a 9-to-5 job, and the eastern world where it is more likely to start working later, but also stay working later!
+
+### Do you understand more the binding force between people?
+
+In this datastory, we start with a high-level investigation on similarity between two of people's features: sociability and average traveling distance. Immediately after, we study fine-grained level human mobility, which are similarity from people around the world, to people living in the same country, then to pairs of friends. As we reveal the story, you can find that cultural difference between countries plays an important factor in inflencing people's movement. Hence we also look into the periodic and non-periodic mobility difference between countries.
+
+Do you meet some strangers frequently in gym? Maybe he or she is your new friend. Are you and your oldfriends hanging out less than before, and you are not aware of it? Don't worry, it's never too late to revive your friendship!
